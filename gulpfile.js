@@ -7,24 +7,24 @@ const fileinclude = require('gulp-file-include');
 gulp.task('sass', function() {
     return gulp.src("src/scss/**/*.scss")
         .pipe(sass())
-        .pipe(gulp.dest("dist/css"))
+        .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
 });
 
 gulp.task('fileinclude', function() {
     gulp.src(['src/*.html'])
       .pipe(fileinclude())
-      .pipe(gulp.dest('./dist/'));
+      .pipe(gulp.dest('./'));
   });
 
 // Static Server + watching scss/html files
 gulp.task('default', gulp.parallel(['sass', 'fileinclude'], function() {
 
     browserSync.init({
-        server: "./dist/"
+        server: "."
     });
 
     gulp.watch("src/scss/**/*.scss", gulp.series('sass'));
     gulp.watch("src/*.html").on('change', gulp.series('fileinclude'));
-    gulp.watch("dist/*.html").on('change', browserSync.reload);
+    gulp.watch("*.html").on('change', browserSync.reload);
 }));
