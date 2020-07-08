@@ -1,0 +1,23 @@
+header:
+  title: Kontaktiere uns
+  subtitle: Wir vermieten unsere Chalet-Wohnung gerne an euch
+form:
+  name:
+    label: Name
+    placeholder: Dein Name
+  email: 
+    label: Email
+    placeholder: Email Addresse
+  subject:
+    label: Betreff
+    placeholder: Worum geht's?
+  message:
+    label: Nachricht
+    placeholder: Grüezi!
+  submit: Abschicken
+info:
+  title: Kontakt
+  owner: Inhaber
+  address: Adresse
+  phone: Phone
+  email: Email-Adresse

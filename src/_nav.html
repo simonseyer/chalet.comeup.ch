@@ -14,9 +14,17 @@
                 class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
             <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li class="@@home"><a href="index.html">Home</a></li>
-              <li class="@@info"><a href="info.html">Infos zur Wohnung</a></li>
-              <li class="@@contact"><a href="contact.html">Kontakt</a></li>
+              <li class="@@home"><a href="/${{ _lang_ }}$/index.html">${{ nav.home }}$</a></li>
+              <li class="@@info"><a href="/${{ _lang_ }}$/info.html">${{ nav.info }}$</a></li>
+              <li class="@@contact"><a href="/${{ _lang_ }}$/contact.html">${{ nav.contact }}$</a></li>
+              <li class="has-children">
+                <a href="#">${{ nav.language }}$</a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="/de/${{ _filename_ }}$">Deutsch</a></li>
+                  <li><a href="/en/${{ _filename_ }}$">English (incomplete)</a></li>
+                </ul>
+              </li>
+
             </ul>
           </nav>
         </div>
