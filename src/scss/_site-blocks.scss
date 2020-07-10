@@ -35,6 +35,9 @@
 		font-weight: 900;
 		color: $white;
 		font-size: 4rem;
+		@include media-breakpoint-down(sm) {
+			font-size: 3rem;
+		}
 		font-weight: normal;
 		letter-spacing: .1em;
 		text-transform: uppercase;	
