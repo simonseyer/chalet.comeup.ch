@@ -2,6 +2,6 @@ header:
   title: Welcome in Schönried
   subtitle: Chalet Gassegüetli
   book: Book now
-in-progress:
-  title: Under development
-  text: This website is still under development.
+info:
+  title: Guest Info
+  text: On our <a href='info.html'>Apartment Info</a> page you find everything you need to know during your visit.

@@ -2,6 +2,6 @@ header:
   title: Willkommen in Schönried
   subtitle: Chalet Gassegüetli
   book: Jetzt buchen
-in-progress:
-  title: Im Aufbau
-  text: Diese Website befindet sich gerade noch im Aufbau. 
+info:
+  title: Besucher-Information
+  text: In unseren <a href='info.html'>Infos zur Wohnung</a> findet ihr alles, was vor Ort wichtig ist.
