@@ -39,4 +39,5 @@ gulp.task('default', gulp.parallel(['sass', 'html'], function() {
     gulp.watch("src/*.html").on('change', gulp.series('html'));
     gulp.watch("src/lang/**/*.yaml").on('change', gulp.series('html'));
     gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch("js/**/*.js").on('change', browserSync.reload);
 }));
