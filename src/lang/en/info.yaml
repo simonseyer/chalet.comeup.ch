@@ -31,6 +31,20 @@ tv:
     For easier control, we can also recommend using the LG TV Plus App as a remote control 
     to use. The TV has no cable connection - that's why he says it is "not programmed". 
     Before you leave, remember to log out of your accounts.
+guest_card:
+  title: Guest card
+  text1: >
+    The Gstaad guest card is at your disposal during your visit. 
+    It is a great way to take advantage of the region's special offers at a reduced price.
+    You can find all offers under <a href="https://www.gstaad.ch/en/service/tourist-offices/guest-card" target="_blank">gstaad.ch/en/service/tourist-offices/guest-card</a>.
+  text2: >
+    The best thing is that you can buy the Gstaad Card for CHF 19 (children CHF 9) from May to the end of October.
+    There are mountain railways, various public transport services and various offers for attractive 
+    leisure activities included or at a reduced rate - an unbeatable price. All about it under 
+    <a href="https://www.gstaad.ch/en/news/offers/gstaad-card" target="_blank">gstaad.ch/en/news/offers/gstaad-card</a>.
+  text3: >
+    The guest card is available in the apartment. As it is not issued per guest but per holiday apartment, 
+    we kindly ask you to leave them in the apartment again upon departure. Thanks!
 additional_equipment:
   title: Glasses, Fondue & Raclette
   text: >
