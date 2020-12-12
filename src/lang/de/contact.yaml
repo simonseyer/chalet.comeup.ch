@@ -7,7 +7,7 @@ form:
     placeholder: Dein Name
   email: 
     label: Email
-    placeholder: Email Addresse
+    placeholder: Email-Adresse
   subject:
     label: Betreff
     placeholder: Worum geht's?
