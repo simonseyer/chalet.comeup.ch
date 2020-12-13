@@ -5,18 +5,25 @@ const fileinclude = require('gulp-file-include');
 const i18n        = require('gulp-html-i18n');
 const filter      = require('gulp-filter');
 
+const buildFolder = './dist'
+const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/*', 'src/js/*']
+const scssPattern = "src/scss/**/*.scss"
+const htmlPattern = "src/*.html"
+const translationPattern = "src/lang/**/*.yaml"
+
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-    return gulp.src("src/scss/**/*.scss")
+    return gulp.src(scssPattern)
         .pipe(sass())
-        .pipe(gulp.dest("css"))
+        .pipe(gulp.dest(buildFolder + "/css"))
         .pipe(browserSync.stream());
 });
 
 gulp.task('html', function() {
   const fileFilter = filter(['**', '!**/_*.html']);
 
-    gulp.src(['src/*.html'])
+  return gulp
+      .src(htmlPattern)
       .pipe(fileFilter)
       .pipe(fileinclude())
       .pipe(i18n({
@@ -25,19 +32,27 @@ gulp.task('html', function() {
         createLangDirs: true,
         defaultLang: 'de'
       }))
-      .pipe(gulp.dest('./'));
-  });
+      .pipe(gulp.dest(buildFolder));
+});
+
+
+gulp.task('copy', function() {
+  return gulp
+      .src(otherFilesPattern, { "base" : "src" })
+      .pipe(gulp.dest(buildFolder));
+})
+
+gulp.task('build', gulp.parallel(['sass', 'html', 'copy']));
 
 // Static Server + watching scss/html files
-gulp.task('default', gulp.parallel(['sass', 'html'], function() {
-
+gulp.task('default', gulp.parallel(['sass', 'html', 'copy'], function() {
     browserSync.init({
-        server: "."
+        server: "dist"
     });
 
-    gulp.watch("src/scss/**/*.scss", gulp.series('sass'));
-    gulp.watch("src/*.html").on('change', gulp.series('html'));
-    gulp.watch("src/lang/**/*.yaml").on('change', gulp.series('html'));
-    gulp.watch("*.html").on('change', browserSync.reload);
-    gulp.watch("js/**/*.js").on('change', browserSync.reload);
+    gulp.watch(scssPattern, gulp.series('sass'));
+    gulp.watch(htmlPattern, gulp.series('html'));
+    gulp.watch(translationPattern, gulp.series('html'));
+    gulp.watch(otherFilesPattern, gulp.series('copy'));
+    gulp.watch("dist/**", browserSync.reload);
 }));
