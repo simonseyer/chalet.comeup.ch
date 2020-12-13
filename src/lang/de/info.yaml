@@ -4,13 +4,12 @@ header:
 first_aid:
   title: Erste Hilfe & Feuerlöscher
   text: >
-    Das Erste-Hilfe-Set findet ihr in der Kommode im Wohnzimmer. 
-    Erste Schublade von rechts.
+    Das Erste-Hilfe-Set findet ihr im Sideboard im Wohnzimmer, erste Schublade von rechts.
     Der Feuerlöscher steht links neben dem Kamin.
 windows:
   title: Fensterläden
   text: >
-    Wenn bei eurer Ankunft die Fensterläden zu sind, einfach nach außen klappen und feststellen. 
+    Wenn bei eurer Ankunft die Fensterläden geschlossen sind, einfach nach außen klappen und feststellen. 
     Bei der Abreise könnt ihr die die Läden gerne offen lassen.
 feedback:
   title: Feedback
@@ -23,14 +22,14 @@ feedback:
 tv:
   title: Fernseher
   text1: >
-    Mit dem Smart-TV könnt ihr einfach eure Lieblingssendungen auf Netflix oder Amazon Prime Video 
-    weiterschauen oder über die Apps oder den Browser beliebige andere Inhalte konsumieren. 
-    Er unterstützt auch AirPlay und Google Cast — wenn ihr im WiFi seid könnt ihr einfach Inhalte
-    an den Fernseher schicken.
+    Mit dem Smart-TV könnt ihr eure Lieblingssendungen auf Netflix oder Amazon Prime Video 
+    schauen und über die TV-Apps auf den Browser oder beliebige andere Inhalte zugreifen. 
+    Er unterstützt auch AirPlay und Google Cast — wenn ihr im WiFi seid könnt ihr Inhalte
+    einfach an den Fernseher schicken.
   text2: >
-    Für eine einfacherer Steuerung können wir auch empfehlen, die LG TV Plus App als Fernbedienung 
+    Für eine einfacherere Steuerung können wir empfehlen, die LG TV Plus App als Fernbedienung 
     zu verwenden. Der TV hat keinen Kabelanschluss — deswegen sagt er auch, er sei "nicht programmiert". 
-    Bevor ihr abreist, denkt daran, euch aus euren Accounts abzumelden.
+    Denkt vor eurer Abreise daran eure Accounts abzumelden.
 guest_card:
   title: Gästekarte
   text1: >
@@ -44,17 +43,17 @@ guest_card:
     <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card" target="_blank">gstaad.ch/aktuell/angebote/gstaad-card</a>.
   text3: >
     Die Gästekarte liegt in der Wohnung aus. Da sie nicht pro Gast sondern pro Ferienwohnung ausgegeben wird, 
-    bitten wir euch, sie bei Abreise auch wieder in der Wohnung zu belassen. Danke!
+    bitten wir euch, sie bei eurer Abreise auch wieder in der Wohnung zu belassen. Danke!
 additional_equipment:
   title: Gläser, Fondue & Raclette
   text: >
-    Neben der Küche findet ihr in der Kommode in der Küche noch weitere Gläser. 
-    Dort findet ihr euch das Caquelon für Fondue und das Raclette-Gerät.
+    Neben der Küche findet ihr im Sideboard im Wohnzimmer im linken Fach noch weitere Gläser. 
+    In den anderen Fächern findet ihr euch das Caquelon für Fondue und das Raclette-Gerät.
 contact:
   title: Kontakt
   text: >
     Solltet ihr Fragen oder Probleme haben sind wir natürlich gerne für euch da. Kontaktiert uns entweder
-    über die AirBnB App oder nutzt die Kontaktmöglichkeit <a href="contact.html"> auf dieser Seite</a>.
+    über AirBnB oder nutzt die Kontaktmöglichkeit <a href="contact.html"> auf dieser Seite</a>.
 garbage:
   title: Müll
   text1: >
@@ -62,47 +61,47 @@ garbage:
     könnt ihr im Mülleimer in der Küche entsorgen. Glas/Flaschen stellt einfach unter die Spüle.
   text2: >
     Bitte beachtet, dass nur gebührenpflichte Müllsäcke entsorgt werden dürfen. Nutzt deswegen die Müllsäcke
-    vor Ort, wenn ihr selbst mal den Müll raus bringt.
+    vor Ort, wenn ihr selbst den Müll raus bringt.
 supplies:
   title: Nachschub
   text: >
     Sollte euch Kaffee, Seife, etc. ausgehen, findet ihr im ganz linken Schrank im großen Schlafzimmer
     Nachschub. Reinigungsmaterial, Schwämme, etc. findet ihr entweder im mittleren Schrank oder in der Küche
-    in dem Schrank rechts unten neben der Spüle.
+    im Schrank rechts unterhalb der Spüle (neben dem Mülleimer).
 parking:
   title: Parken
   image: Karte mit Parkplätzen
   text1: >
-    Es gibt einen Stellplatz in der Tiefgarage den ihr nutzen könnt. Wenn ihr vor dem Haus steht, 
-    einfach Richtung Hauptstraße zurück fahren und die erste Einfahrt links nehmen (1. auf der Karte). 
+    Es gibt einen Stellplatz in der Tiefgarage, den ihr nutzen könnt. Wenn ihr vor dem Haus steht, 
+    einfach Richtung Dorfstrasse zurück fahren und die erste Einfahrt links nehmen (1. auf der Karte). 
     Der Wohnungsschlüssel passt in das untere Schloss der Säule und öffnet das Tor. 
   text2: >
     Der Stellplatz ist ungefähr mittig auf der linken Seite und mit der Nummer 23 (Wohnung 7) beschriftet.
     Über die Tür neben dem Parkplatz kommt ihr ins Treppenhaus.
-    Wenn ihr mit mehr als einem Fahrzeug angereist seid, könnt ihr auch den kostenlosen Parkplatz
+    Wenn ihr mit mehr als einem Fahrzeug anreist, könnt ihr auch den kostenlosen Parkplatz
     gegenüber der Wohnung nutzen (2. auf der Karte).
 keys:
   title: Schlüssel
   text1: >
     Den Schlüssel findet ihr im Schlüsselsafe neben dem Eingang (Marke EMIUP). 
-    Den Code erhaltet ihr nach eurer Buchung über die AirBnB App. 
+    Den Code erhaltet ihr nach eurer Buchung über AirBnB. 
   text2: >
     Der Schlüssel schließt die Haus- und Wohnungstür, das Tiefgaragentor sowie den Skiraum.
-    Wenn ihr abreist, lasst den Schlüssel bitte unbedingt im Safe. 
+    Wenn ihr abreist, lasst den Schlüssel bitte unbedingt im Safe und verdreht das Zahlenschloss. 
     Das empfehlen wir auch, wenn ihr während eures Aufenthalts die Wohnung verlasst (gerade für Gruppen).
 ski:
   title: Skiraum
   text: >
     Ski- und Snowboardausrüstung bitte im Skiraum abstellen. Nicht mit den Skischuhen durch das Treppenhaus
-    gehen! Rechts vom Eingang findet ihr die Treppe die zum Skiraum führt.
+    gehen! Rechts vom Hauseingang findet ihr die Treppe mit direktem Zugang zum Skiraum.
 dishes:
   title: Spülen
   text: >
-    Wir freuen uns, wenn ihr euer Geschirr direkt abspült, damit sich kein Dreck fest setzt.
+    Wir würden uns freuen, wenn ihr dreckiges Geschirr direkt abspült und die Küche sauber haltet.
 power:
   title: Stecker-Adapter & Kabel
   text: >
-    Stecker-Adapter, Mehrfachstecker und Verlängerungskabel findet ihr im Wohnzimmer in der Kommode. 
+    Steckdosen-Adapter für Deutsche Stecker, Mehrfachstecker und Verlängerungskabel findet ihr im Sideboard im Wohnzimmer. 
     In der zweiten Schublade von rechts findet ihr was ihr sucht.
 phone:
   title: Telefon
@@ -112,14 +111,14 @@ phone:
 laundry:
   title: Wäsche waschen
   text1: >
-    Im Haus steht eine Waschmaschine und ein Trockner gegen Gebühr zur Verfügung. Die Chip-Karte zur Nutzung
-    von beidem sowie Waschpulver findet ihr im linken Schrank im großen Schlafzimmer. Bitte werft für jeden 
+    Im Haus steht euch eine Waschmaschine und ein Trockner gegen Gebühr zur Verfügung. Waschmittel und die Chip-Karte zur Nutzung
+    der Geräte findet ihr im linken Schrank im großen Schlafzimmer. Bitte werft für jeden 
     Wasch-/Trockengang 5 CHF in die "Wäschkasse", die auch im Schrank steht (oder sagt uns Bescheid, wenn
     ihr über Paypal/Überweisung bezahlen wollt).
   text2: >
     Die Waschküche findet ihr im Keller. Am Ende vom Treppenhaus links durch die Tür und gleich wieder links.
-    Bitte beachtet die ausgehängten Anweisungen. Tragt euch vor allem in ausliegende Liste ein (Wohnung 7)
-    und hinterlasst die Waschküche sauber. Zur Bedienung, hier ein <a href="/images/waschen.mp4">kleines Video</a>.
+    Bitte beachtet die ausgehängten Anweisungen, hinterlasst die Waschküche sauber und tragt euch in die
+    ausliegende Liste ein (Wohnung Nr. 7). Zur Bedienung, hier ein <a href="/images/waschen.mp4">kleines Video</a>.
 wifi:
   title: WiFi
   text: >
