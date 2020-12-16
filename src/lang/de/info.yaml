@@ -24,12 +24,12 @@ tv:
   text1: >
     Mit dem Smart-TV könnt ihr eure Lieblingssendungen auf Netflix oder Amazon Prime Video 
     schauen und über die TV-Apps auf den Browser oder beliebige andere Inhalte zugreifen. 
-    Er unterstützt auch AirPlay und Google Cast — wenn ihr im WiFi seid könnt ihr Inhalte
+    Er unterstützt auch AirPlay und Google Cast — wenn ihr im WiFi seid, könnt ihr Inhalte
     einfach an den Fernseher schicken.
   text2: >
     Für eine einfacherere Steuerung können wir empfehlen, die LG TV Plus App als Fernbedienung 
     zu verwenden. Der TV hat keinen Kabelanschluss — deswegen sagt er auch, er sei "nicht programmiert". 
-    Denkt vor eurer Abreise daran eure Accounts abzumelden.
+    Denkt vor eurer Abreise daran, eure Accounts abzumelden.
 guest_card:
   title: Gästekarte
   text1: >
@@ -47,8 +47,8 @@ guest_card:
 additional_equipment:
   title: Gläser, Fondue & Raclette
   text: >
-    Neben der Küche findet ihr im Sideboard im Wohnzimmer im linken Fach noch weitere Gläser. 
-    In den anderen Fächern findet ihr euch das Caquelon für Fondue und das Raclette-Gerät.
+    Neben der Küche findet ihr im linken Fach des Sideboards im Wohnzimmer noch weitere Gläser. 
+    In den anderen Fächern findet ihr auch das Caquelon für Fondue und das Raclette-Gerät.
 contact:
   title: Kontakt
   text: >
@@ -101,7 +101,7 @@ dishes:
 power:
   title: Stecker-Adapter & Kabel
   text: >
-    Steckdosen-Adapter für Deutsche Stecker, Mehrfachstecker und Verlängerungskabel findet ihr im Sideboard im Wohnzimmer. 
+    Steckdosen-Adapter für deutsche Stecker, Mehrfachstecker und Verlängerungskabel findet ihr im Sideboard im Wohnzimmer. 
     In der zweiten Schublade von rechts findet ihr was ihr sucht.
 phone:
   title: Telefon
