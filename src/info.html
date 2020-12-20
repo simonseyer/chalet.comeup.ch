@@ -21,81 +21,121 @@
   <div class="site-section border-bottom">
     <div class="container">
       <div class="row">
+        <div class="col-md-12">
+          <div id="toc">
+            <a href="#parking">${{ info.parking.title }}$</a>
+            <a href="#keys">${{ info.keys.title }}$</a>
+            <a href="#windows">${{ info.windows.title }}$</a>
+            <a href="#wifi">${{ info.wifi.title }}$</a>
+            <a href="#power">${{ info.power.title }}$</a>
+            <a href="#tv">${{ info.tv.title }}$</a>
+            <a href="#guest_card">${{ info.guest_card.title }}$</a>
+            <a href="#additional_equipment">${{ info.additional_equipment.title }}$</a>
+            <a href="#coffee">${{ info.coffee.title }}$</a>
+            <a href="#ski">${{ info.ski.title }}$</a>
+            <a href="#fireplace">${{ info.fireplace.title }}$</a>
+            <a href="#cleaning">${{ info.cleaning.title }}$</a>
+            <a href="#dishes">${{ info.dishes.title }}$</a>
+            <a href="#phone">${{ info.phone.title }}$</a>
+            <a href="#heating">${{ info.heating.title }}$</a>
+            <a href="#supplies">${{ info.supplies.title }}$</a>
+            <a href="#garbage">${{ info.garbage.title }}$</a>
+            <a href="#first_aid">${{ info.first_aid.title }}$</a>
+            <a href="#contact">${{ info.contact.title }}$</a>
+            <a href="#feedback">${{ info.feedback.title }}$</a>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          let toc = document.getElementById("toc")
+          let elements = document.querySelectorAll("#toc a")
+
+          let sortedElements = [...elements].sort(function(a, b) {
+            return a.textContent > b.textContent ? 1 : -1;
+          })
+
+          sortedElements.forEach(function(element) {
+            toc.appendChild(element)
+          })
+        </script>
+      </div>
+
+      <div class="row">
 
         <div class="col-md-6">
-          <h2>${{ info.parking.title }}$</h2>
+          <h2 id="parking">${{ info.parking.title }}$</h2>
           <a href="/images/map.png">
             <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="${{ info.parking.image }}$">
           </a>          
           <p>${{ info.parking.text1 }}$</p>
           <p>${{ info.parking.text2 }}$</p>
 
-          <h2>${{ info.keys.title }}$</h2>
+          <h2 id="keys">${{ info.keys.title }}$</h2>
           <p>${{ info.keys.text1 }}$</p>
           <p>${{ info.keys.text2 }}$</p>
 
-          <h2>${{ info.windows.title }}$</h2>
+          <h2 id="windows">${{ info.windows.title }}$</h2>
           <p>${{ info.windows.text }}$</p>
 
-          <h2>${{ info.wifi.title }}$</h2>
+          <h2 id="wifi">${{ info.wifi.title }}$</h2>
           <p>${{ info.wifi.text }}$</p>
 
-          <h2>${{ info.power.title }}$</h2>
+          <h2 id="power">${{ info.power.title }}$</h2>
           <p>${{ info.power.text }}$</p>
 
-          <h2>${{ info.tv.title }}$</h2>
+          <h2 id="tv">${{ info.tv.title }}$</h2>
           <p>${{ info.tv.text1 }}$</p>
           <p>${{ info.tv.text2 }}$</p>
 
-          <h2>${{ info.guest_card.title }}$</h2>
+          <h2 id="guest_card">${{ info.guest_card.title }}$</h2>
           <p>${{ info.guest_card.text1 }}$</p>
           <p>${{ info.guest_card.text2 }}$</p>
           <p>${{ info.guest_card.text3 }}$</p>
         </div>
 
         <div class="col-md-6 ml-auto">
-          <h2>${{ info.additional_equipment.title }}$</h2>
+          <h2 id="additional_equipment">${{ info.additional_equipment.title }}$</h2>
           <p>${{ info.additional_equipment.text }}$</p>
 
-          <h2>${{ info.coffee.title }}$</h2>
+          <h2 id="coffee">${{ info.coffee.title }}$</h2>
           <p>${{ info.coffee.text }}$</p>
 
-          <h2>${{ info.ski.title }}$</h2>
+          <h2 id="ski">${{ info.ski.title }}$</h2>
           <p>${{ info.ski.text }}$</p>
 
-          <h2>${{ info.fireplace.title }}$</h2>
+          <h2 id="fireplace">${{ info.fireplace.title }}$</h2>
           <p>${{ info.fireplace.text }}$</p>
 
-          <h2>${{ info.cleaning.title }}$</h2>
+          <h2 id="cleaning">${{ info.cleaning.title }}$</h2>
           <p>${{ info.cleaning.text }}$</p>
 
-          <h2>${{ info.dishes.title }}$</h2>
+          <h2 id="dishes">${{ info.dishes.title }}$</h2>
           <p>${{ info.dishes.text }}$</p>
 
-          <h2>${{ info.laundry.title }}$</h2>
+          <h2 id="laundry">${{ info.laundry.title }}$</h2>
           <p>${{ info.laundry.text1 }}$</p>
           <p>${{ info.laundry.text2 }}$</p>
 
-          <h2>${{ info.phone.title }}$</h2>
+          <h2 id="phone">${{ info.phone.title }}$</h2>
           <p>${{ info.phone.text }}$</p>
 
-          <h2>${{ info.heating.title }}$</h2>
+          <h2 id="heating">${{ info.heating.title }}$</h2>
           <p>${{ info.heating.text }}$</p>
 
-          <h2>${{ info.supplies.title }}$</h2>
+          <h2 id="supplies">${{ info.supplies.title }}$</h2>
           <p>${{ info.supplies.text }}$</p>
 
-          <h2>${{ info.garbage.title }}$</h2>
+          <h2 id="garbage">${{ info.garbage.title }}$</h2>
           <p>${{ info.garbage.text1 }}$</p>
           <p>${{ info.garbage.text2 }}$</p>
 
-          <h2>${{ info.first_aid.title }}$</h2>
+          <h2 id="first_aid">${{ info.first_aid.title }}$</h2>
           <p>${{ info.first_aid.text }}$</p>
 
-          <h2>${{ info.contact.title }}$</h2>
+          <h2 id="contact">${{ info.contact.title }}$</h2>
           <p>${{ info.contact.text }}$</p>
 
-          <h2>${{ info.feedback.title }}$</h2>
+          <h2 id="feedback">${{ info.feedback.title }}$</h2>
           <p>${{ info.feedback.text }}$</p>
         </div>
       </div>

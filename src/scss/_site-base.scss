@@ -1,9 +1,13 @@
+:root {
+  --text-color: #333;
+}
+
 body {
 	line-height: 1.7;
 	// color: rgba($white, .5);
 	font-weight: 400;
 	font-size: 1rem;
-	color: #333;
+	color: var(--text-color);
 	font-family: $font-family-sans-serif;
 }
 ::-moz-selection { 
@@ -299,6 +303,29 @@ a {
 			height: 2px;
 			position: absolute;
 			bottom: 0;
+		}
+	}
+}
+
+#toc {
+	margin-bottom: 24px;
+
+	a {
+		color: var(--text-color);
+		border: 1px solid var(--text-color);
+		padding: 4px 10px;
+		border-radius: 12px;
+		margin-right: 8px;
+		display: inline-block;
+		margin-bottom: 8px;
+
+		&::first-letter { 
+			font-weight: bold;
+		}
+
+		&:hover {
+			background-color: var(--text-color);
+			color: #fff;
 		}
 	}
 }
