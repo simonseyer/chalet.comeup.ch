@@ -20,6 +20,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif; }
 
+h2 {
+  margin-top: 2.5rem; }
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.6rem; }
+
 a {
   transition: .3s all ease; }
   a:hover {
@@ -107,12 +114,7 @@ a {
     box-shadow: none !important; }
 
 .site-section {
-  padding: 3em 0; }
-  @media (min-width: 768px) {
-    .site-section {
-      padding: 7em 0; } }
-  .site-section.site-section-sm {
-    padding: 4em 0; }
+  padding: 4em 0; }
 
 .bg-text-line {
   display: inline;
