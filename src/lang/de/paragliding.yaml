@@ -1,0 +1,39 @@
+header:
+  title: Paragliding
+  subtitle: Die Schweiz aus der Luft erleben
+flyareas:
+  title: Fluggebiete
+  text: Das Berner Oberland besitzt einige sehr schöne Fluggebiete die von unserer Wohnung sehr gut zu erreichen sind. Vom Balkon hat man zwei dieser Fluggebiete den Hornberg und die Wispile sehr gut im Blick.
+  paragstaadLink: Fluggebiete auf paragstaad.ch
+wispile:
+    title: Wispile
+    windyLink: Windsituation auf der Wispile (Windy)
+hornberg:
+    title: Hornberg
+    windyLink: Windsituation auf dem Hornberg (Windy)
+weather:
+  title: Wetterinfos
+  text: >
+    Um das Flugwetter zu beurteilen, bieten wir hier verschiedene Quellen und Links an die wir selbst nutzen.
+    Das Wetter im Saanental kann stark vom Bisewind und Südföhn beeinflusst werden, daher sollte auch ein Blick hierauf nicht fehlen.
+  winds: Spezielle Winde
+  foehnLink: Föhnprognose auf meteocentrale.ch
+  biseLink: Bisewind auf meteocentral.ch
+  general: Allgemeine Wetterlage Schweiz
+  srfLink: Wetter auf SRF meteo (Die Videos sind in Schweizerdeutsch ;))
+  local: Lokales Wetter
+  meteoSchweizLink: Wetterprognose auf meteoschweiz.ch
+  meteoSchweizLink2: Großwetterlage auf meteoschweiz.ch
+  meteomediaLink: Wetterstation Saanen
+  meteomediaText: Diese Wetterstation befindet sich in Saanen und zeigt daher vorrangig den Wind im West-Ost gelegenem Tal an. Die Informationen hieraus können interessant sein für Landungen in eben diesem Tal z.B. bei Landungen in Schönried. 
+  meteoBlueLink: Lokales Wetter auf MeteoBlue
+paraIntro:
+  title: Der Traum vom Fliegen
+  text: >
+    Lassen Sie den Traum vom Fliegen wahr werden. Mit dem Gleitschirm lautlos über die Landschaft schweben ist eine Erfahrung die man nicht mehr vergisst.
+    Auf dieser Seite finden Sie vorallem Informationen für Gleitschirmpiloten über verschiedene Flugebiete und alles was man sonst noch Wissen sollte.
+  text2: > 
+    Für alle die Paragliding mal ausprobieren wollen, können wir die Flugschule <a href="https://www.timetofly.ch/"
+          alt="link to paragliding school TimeToFly"
+          >TimeToFly</a> empfehlen. Hier können Sie selbst das Gleitschirmen fliegen lernen oder einen Tandemflug buchen.
+        

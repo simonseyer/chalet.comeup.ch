@@ -1,0 +1,25 @@
+header:
+  title: Paragliding
+  subtitle: Experience Switzerland from the air
+flyareas:
+  title: Fly spots
+  text: The Berner Oberland has a lot of beautiful flying spots and our flat Gasseguetly is right in the middle. From the balcony you can see two mountains with starting spots Hornberg and Wispile. 
+wispile:
+    title: Wispile
+    windyLink: Wind situation Wispile (Windy)
+hornberg:
+    title: Hornberg
+    windyLink: Wind situation Hornberg (Windy)
+weather: 
+  title: Weather Links
+  foehn: Foehn
+  foehnLink: Foehn forecast on meteocentrale.ch
+paraIntro:
+  title: The Dream of flying
+  text: >
+    Lassen Sie den Traum vom Fliegen wahr werden. Mit dem Gleitschirm lautlos über die Landschaft schweben ist eine Erfahrung die man nicht mehr vergisst.
+    Auf dieser Seite finden Sie vorallem Informationen für Gleitschirmpiloten über verschiedene Flugebiete und alles was man sonst noch Wissen sollte.
+  text2: > 
+    Für alle die Paragliding mal ausprobieren wollen, können wir die Flugschule <a href="https://www.timetofly.ch/"
+          alt="link to paragliding school TimeToFly"
+          >TimeToFly</a> empfehlen. Hier können Sie selbst das Gleitschirmen fliegen lernen oder einen Tandemflug buchen.
