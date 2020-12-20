@@ -310,7 +310,7 @@ a {
           top: 50%;
           right: 0;
           transform: translateY(-50%);
-          font-family: 'icomoon'; }
+          font-family: 'bootstrap-icons'; }
       .site-navbar .site-navigation .site-menu .has-children .dropdown {
         visibility: hidden;
         opacity: 0;
@@ -360,7 +360,7 @@ a {
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
               color: #d4a175; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
-            content: "\e315";
+            content: "\f273";
             right: 20px; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > .dropdown, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > ul {
             left: 100%;
@@ -458,8 +458,8 @@ a {
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
         z-index: 20;
-        font-family: "icomoon";
-        content: "\f078";
+        font-family: bootstrap-icons;
+        content: "\f273";
         position: absolute;
         top: 50%;
         left: 50%;
