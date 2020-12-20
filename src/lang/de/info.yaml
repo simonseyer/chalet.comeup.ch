@@ -37,9 +37,9 @@ guest_card:
     Sie bietet eine schöne Möglichkeit, die Angebote der Region vergünstigt zu nutzen.
     Alle Angebote findet ihr unter <a href="https://www.gstaad.ch/gaestekarte" target="_blank">gstaad.ch/gaestekarte</a>.
   text2: >
-    Das beste ist, dass ihr von Mai bis Ende Oktober die Gstaad Card für CHF 19.- (Kinder CHF 9.-) kaufen könnt.
-    Dort sind Bergbahnen, verschiedene öffentliche Verkehrsmittel sowie diverse Angebote zur attraktiven 
-    Freizeitgestaltung inklusive bzw. vergünstigt — ein unschlagbarer Preis. Alles dazu unter 
+    Das beste ist, dass ihr von Mai bis Ende Oktober für wenig Geld die Gstaad Card kaufen könnt.
+    Dort sind Bergbahnen, verschiedene öffentliche Verkehrsmittel sowie diverse Angebote zur 
+    Freizeitgestaltung inklusive bzw. vergünstigt. Alles dazu unter 
     <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card" target="_blank">gstaad.ch/aktuell/angebote/gstaad-card</a>.
   text3: >
     Die Gästekarte liegt in der Wohnung aus. Da sie nicht pro Gast sondern pro Ferienwohnung ausgegeben wird, 
@@ -49,6 +49,12 @@ additional_equipment:
   text: >
     Neben der Küche findet ihr im linken Fach des Sideboards im Wohnzimmer noch weitere Gläser. 
     In den anderen Fächern findet ihr auch das Caquelon für Fondue und das Raclette-Gerät.
+coffee:
+  title: Kaffee
+  text: >
+    Morgens zum Wachwerden oder für den entspannten Nachmittags-Kaffe mit Blick auf die Berge
+    steht euch in der Küche eine Kaffee-Pad-Machine zur Verfügung. Und wenn ihr euren Kaffee nicht schwarz mögt,
+    so holt euch einfach eine frische Milch von der Kühen aus der Region in der Molkerei im Ort.
 contact:
   title: Kontakt
   text: >
@@ -94,6 +100,17 @@ ski:
   text: >
     Ski- und Snowboardausrüstung bitte im Skiraum abstellen. Nicht mit den Skischuhen durch das Treppenhaus
     gehen! Rechts vom Hauseingang findet ihr die Treppe mit direktem Zugang zum Skiraum.
+fireplace:
+  title: Kamin
+  text: >
+    Die Wohnung verfügt über einen Kamin, welcher aber zur Zeit leider nicht nutzbar ist.
+cleaning:
+  title: Reinigung
+  text: >
+    Die Wohnung wird vor eurem Eintreffen mit der bekannten schweizer Gründlichkeit gereinigt und für euch hergerichtet.
+    Wir halten uns dabei an das 
+    <a href="https://www.airbnb.ch/help/article/2809/was-ist-die-erweiterte-reinigung-in-fünf-schritten-von-airbnb?locale=de">AirBnB Reinigungsprotokoll</a>.
+    Bei eurer Abreise bitten wir euch, die Wohnung wieder ordentlich zu verlassen. 
 dishes:
   title: Spülen
   text: >
@@ -108,6 +125,10 @@ phone:
   text: >
     Ihr könnte das Telefon gerne für Telefonate in der Schweiz nutzen. Wenn ihr ins Ausland telefonieren wollt,
     schmeißt bitte ein paar Franken in die "Wäschekasse" im linken Schrank im großen Schlafzimmer. 
+heating:
+  title: Heizung
+  text: >
+    Das Haus ist normalerweise ganzjährig so warm, dass ihr gar nicht selbst heizen müsst.
 laundry:
   title: Wäsche waschen
   text1: >
