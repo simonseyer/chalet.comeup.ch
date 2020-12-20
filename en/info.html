@@ -70,8 +70,8 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-7 text-center">
-          <h1 class="text-white">All information about the apartment</h1>
-          <p>What you need to know on the ground</p>
+          <h1 class="text-white">All information about the flat</h1>
+          <p>What you need to know on site</p>
         </div>
       </div>
     </div>
@@ -81,115 +81,149 @@
   <div class="site-section border-bottom">
     <div class="container">
       <div class="row">
+        <div class="col-md-12">
+          <div id="toc">
+            <a href="#parking">Parking</a>
+            <a href="#keys">Key</a>
+            <a href="#windows">Shutters</a>
+            <a href="#wifi">WiFi</a>
+            <a href="#power">Plug adapters & cables</a>
+            <a href="#tv">TV</a>
+            <a href="#guest_card">Guest card</a>
+            <a href="#additional_equipment">Glasses, Fondue & Raclette</a>
+            <a href="#coffee">Coffee</a>
+            <a href="#ski">Ski room</a>
+            <a href="#fireplace">Fireplace</a>
+            <a href="#cleaning">Cleaning</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#phone">Telephone</a>
+            <a href="#heating">Heating</a>
+            <a href="#supplies">Supplies</a>
+            <a href="#garbage">Garbage</a>
+            <a href="#first_aid">First aid & fire extinguisher</a>
+            <a href="#contact">Contact</a>
+            <a href="#feedback">Feedback</a>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          let toc = document.getElementById("toc")
+          let elements = document.querySelectorAll("#toc a")
+
+          let sortedElements = [...elements].sort(function(a, b) {
+            return a.textContent > b.textContent ? 1 : -1;
+          })
+
+          sortedElements.forEach(function(element) {
+            toc.appendChild(element)
+          })
+        </script>
+      </div>
+
+      <div class="row">
 
         <div class="col-md-6">
-          <h2>Parking</h2>
+          <h2 id="parking">Parking</h2>
           <a href="/images/map.png">
             <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="Map with parking spaces">
           </a>          
-          <p>There is a parking space in the underground car park which you can use. If you stand in front of the house,  just drive back towards the main road and take the first driveway on the left (1st on the map)  The apartment key fits into the lower lock of the column and opens the gate.
+          <p>There is a parking space in the underground car park that you can use. When you are in front of the house  just drive back towards Dorfstrasse and take the first entrance on the left (1st on the map).  The flat key fits into the lower lock of the pillar and opens the gate.
 </p>
-          <p>The parking space is approximately in the middle of the left side and marked with the number 23 (apartment 7). Through the door next to the parking lot you can enter the staircase. If you arrived with more than one car, you can also use the free parking lot opposite the apartment (2. on the map).
-</p>
-
-          <h2>Keys</h2>
-          <p>You can find the key in the key safe next to the entrance (EMIUP brand).  You will receive the code after your booking via the AirBnB App.
-</p>
-          <p>The key closes the front door of the house and apartment, the underground garage door and the ski room. When you leave, please leave the key in the safe.  We also recommend this if you leave the apartment during your stay (especially for groups).
+          <p>The parking space is approximately in the middle on the left side and is labelled with the number 23 (flat 7). Use the door next to the parking space to enter the staircase. If you are arriving with more than one car, you can also use the free car park opposite the apartment (2nd on the left). opposite the flat (2nd on the map).
 </p>
 
-          <h2>Shutters</h2>
-          <p>If the shutters are closed when you arrive, simply fold them out and lock them.  On departure you are welcome to leave the shutters open.
+          <h2 id="keys">Key</h2>
+          <p>You will find the key in the key safe next to the entrance (EMIUP brand).  You will receive the code after your booking through AirBnB.
+</p>
+          <p>The key locks the house and flat doors, the garage door and the ski room. When you leave, please leave the key in the safe and turn the combination lock.  We also recommend this if you leave the flat during your stay (especially for groups).
 </p>
 
-          <h2>WiFi</h2>
-          <p>You will find the access data on the welcome card on site. If the router is switched off, just plug it in in the living room and wait a while.
+          <h2 id="windows">Shutters</h2>
+          <p>If the shutters are closed when you arrive, simply fold them outwards and lock them.  You are welcome to leave them open when you leave.
 </p>
 
-          <h2>Plug adapters & cables</h2>
-          <p>Plug adapters, multiple plugs and extension cables can be found in the chest of drawers in the living room.  In the second drawer from the right you will find what you are looking for.
+          <h2 id="wifi">WiFi</h2>
+          <p>You will find the access data on the welcome card on site. If the router is switched off just plug it in in the living room and wait a while.
 </p>
 
-          <h2>TV</h2>
-          <p>With the Smart TV you can easily watch your favourite shows on Netflix or Amazon Prime Video  or consume any other content via the apps or browser.  It also supports AirPlay and Google Cast - when you're on WiFi, you can easily watch content to the television set.
-</p>
-          <p>For easier control, we can also recommend using the LG TV Plus App as a remote control  to use. The TV has no cable connection - that's why he says it is "not programmed".  Before you leave, remember to log out of your accounts.
+          <h2 id="power">Plug adapters & cables</h2>
+          <p>You will find plug adapters for German plugs, multiple plugs and extension cables in the sideboard in the living room.  You will find what you are looking for in the second drawer from the right.
 </p>
 
-          <h2>Guest card</h2>
-          <p>The Gstaad guest card is at your disposal during your visit.  It is a great way to take advantage of the region's special offers at a reduced price. You can find all offers under <a href="https://www.gstaad.ch/en/service/tourist-offices/guest-card" target="_blank">gstaad.ch/en/service/tourist-offices/guest-card</a>.
+          <h2 id="tv">TV</h2>
+          <p>With the Smart TV you can watch your favourite shows on Netflix or Amazon Prime Video.  and access any other content via the TV apps or browser.  It also supports AirPlay and Google Cast - when you're on WiFi, you can easily send content to the TV. content to the TV.
 </p>
-          <p>The best thing is that you can buy the Gstaad Card for CHF 19 (children CHF 9) from May to the end of October. There are mountain railways, various public transport services and various offers for attractive  leisure activities included or at a reduced rate - an unbeatable price. All about it under  <a href="https://www.gstaad.ch/en/news/offers/gstaad-card" target="_blank">gstaad.ch/en/news/offers/gstaad-card</a>.
-</p>
-          <p>The guest card is available in the apartment. As it is not issued per guest but per holiday apartment,  we kindly ask you to leave them in the apartment again upon departure. Thanks!
+          <p>For easier control, we recommend using the LG TV Plus app as a remote control.  as a remote control. The TV doesn't have cable - that's why it says it's "not programmed".  Before you leave, remember to log off your accounts.
 </p>
 
-          
-
-          
-
-          
-
-          
-
-          
-
-          
-
-          
+          <h2 id="guest_card">Guest card</h2>
+          <p>During your visit you can use the Gstaad guest card.  It is a great way to take advantage of the region's offers at a reduced rate. You can find all the offers at <a href="https://www.gstaad.ch/gaestekarte" target="_blank">gstaad.ch/guest-card</a>.
+</p>
+          <p>The best thing is that you can buy the Gstaad Card from May to the end of October for very little money. Mountain railways, various forms of public transport and a range of leisure activities are included or  leisure activities are included or reduced. You can find out all about it at  <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card" target="_blank">gstaad.ch/aktuell/angebote/gstaad-card</a>.
+</p>
+          <p>The guest card is available in the flat. As it is not issued per guest but per holiday flat,  we kindly ask you to leave it in the flat when you leave. Thank you!
+</p>
         </div>
 
         <div class="col-md-6 ml-auto">
-          
-
-          <h2>Glasses, Fondue & Raclette</h2>
-          <p>Besides the kitchen you will find more glasses in the chest of drawers in the kitchen.  There you can find the caquelon for fondue and the raclette machine.
+          <h2 id="additional_equipment">Glasses, Fondue & Raclette</h2>
+          <p>Next to the kitchen you will find more glasses in the left compartment of the sideboard in the living room.  In the other compartments you will also find the caquelon for fondue and the raclette machine.
 </p>
 
-          <h2>Ski Room</h2>
-          <p>Please leave your ski and snowboard equipment in the ski room. Not with your ski boots through the staircase go! Right of the entrance you'll find the stairs leading to the ski room.
+          <h2 id="coffee">Coffee</h2>
+          <p>In the morning to wake up or for a relaxing afternoon coffee with a view of the mountains you can use the coffee pad machine in the kitchen. And if you don't like your coffee black, just get some fresh milk from the local cows at the local dairy.
 </p>
 
-          <h2>Dishes</h2>
-          <p>We are happy if you wash your dishes directly, so that no dirt can settle.
+          <h2 id="ski">Ski room</h2>
+          <p>Please leave your ski and snowboard equipment in the ski room. Do not walk through the staircase with your ski boots on! staircase! To the right of the house entrance you will find the stairs with direct access to the ski room.
 </p>
 
-          <h2>Laundry</h2>
-          <p>A washing machine and a dryer are available in the house for a fee. The chip card for use of both as well as washing powder can be found in the left closet in the big bedroom. Please throw for each  Washing/drying 5 CHF in the "laundry cash box", which is also in the cupboard (or let us know if you want to pay via Paypal/bank transfer).
-</p>
-          <p>You will find the laundry room in the basement. At the end of the staircase turn left through the door and immediately left again. Please follow the posted instructions. Please sign in the list (apartment 7) and leave the laundry room clean. For operation, here a <a href="/images/waschen.mp4">small video</a> .
+          <h2 id="fireplace">Fireplace</h2>
+          <p>The flat has a fireplace, but unfortunately it is not available at the moment.
 </p>
 
-          
-
-          <h2>Phone</h2>
-          <p>You might like to use the phone for phone calls in Switzerland. If you want to call abroad, please throw a few francs into the "laundry till" in the left cupboard in the large bedroom.
+          <h2 id="cleaning">Cleaning</h2>
+          <p>The flat will be cleaned and prepared for you with the well-known Swiss thoroughness before your arrival. We adhere to the  <a href="https://www.airbnb.ch/help/article/2809/was-ist-die-erweiterte-reinigung-in-fünf-schritten-von-airbnb?locale=de">AirBnB cleaning protocol</a>. When you leave, we ask you to leave the flat tidy again.
 </p>
 
-          
-
-          
-
-          <h2>Supplies</h2>
-          <p>Should you run out of coffee, soap, etc., you will find the following in the leftmost cupboard in the large bedroom Supplies. Cleaning material, sponges, etc. can be found either in the middle cupboard or in the kitchen in the cupboard down right next to the sink.
+          <h2 id="dishes">Dishes</h2>
+          <p>We would appreciate it if you washed dirty dishes directly and kept the kitchen clean.
 </p>
 
-          <h2>Garbage</h2>
-          <p>Please separate the waste on site. The small trash can in the living room is for paper and cardboard, everything else you can throw it in the trash can in the kitchen. Simply place glass/bottles under the sink.
+          <h2 id="laundry">Laundry</h2>
+          <p>There is a washing machine and a dryer available in the house for a fee. Detergent and the chip card to use the machines you will find in the left cupboard in the large bedroom. Please throw for each  5 CHF for each wash/dry cycle into the "laundry box", which is also in the cupboard (or let us know if you would like to use you want to pay via Paypal/bank transfer).
 </p>
-          <p>Please note that only refuse bags that have to be paid for can be disposed of. Therefore use the garbage bags on the spot, if you guys take out the trash yourselves.
-</p>
-
-          <h2>First Aid & Fire Extinguisher</h2>
-          <p>The first aid kit can be found in the chest of drawers in the living room.  First drawer from the right. The fire extinguisher is left of the fireplace.
+          <p>The laundry room is in the basement. At the end of the staircase turn left through the door and immediately left again. Please follow the instructions on the notice board, leave the laundry room clean and sign up for the list on display (flat no. 7). To operate, here is a <a href="/images/washing.mp4">small video</a>.
 </p>
 
-          <h2>Contact</h2>
-          <p>If you have any questions or problems we are of course here for you. Contact us either via the AirBnB App or use the contact option <a href="contact.html"> on this page</a>.
+          <h2 id="phone">Telephone</h2>
+          <p>You can use the phone to make calls in Switzerland. If you want to call abroad, please put a few francs in the "laundry box" in the left cupboard in the master bedroom.
 </p>
 
-          <h2>Feedback</h2>
-          <p>We are very happy to receive feedback on your stay.  No matter if it is about the AirBnB review or as a message to us.  Please let us know if there was any damage on your arrival,  if you've broken something or if you have ideas,  how we can make the accommodation even better.
+          <h2 id="heating">Heating</h2>
+          <p>The house is normally so warm all year round that you don't need to heat it yourself.
+</p>
+
+          <h2 id="supplies">Supplies</h2>
+          <p>If you run out of coffee, soap, etc., you will find supplies in the leftmost cupboard in the large bedroom. supplies. Cleaning materials, sponges, etc. can be found either in the middle cupboard or in the kitchen in the cupboard on the right below the sink (next to the rubbish bin).
+</p>
+
+          <h2 id="garbage">Garbage</h2>
+          <p>Please separate the rubbish on site. The small bin in the living room is for paper and cardboard. you can dispose of everything else in the bin in the kitchen. Glass/bottles can be put under the sink.
+</p>
+          <p>Please note that you are only allowed to dispose of rubbish bags that are subject to a fee. Therefore, use the rubbish bags on site when you take out the rubbish yourself.
+</p>
+
+          <h2 id="first_aid">First aid & fire extinguisher</h2>
+          <p>You will find the first aid kit in the sideboard in the living room, first drawer from the right. The fire extinguisher is to the left of the fireplace.
+</p>
+
+          <h2 id="contact">Contact</h2>
+          <p>If you have any questions or problems, we are of course happy to help. Contact us either via AirBnB or use the contact option <a href="contact.html"> on this page</a>.
+</p>
+
+          <h2 id="feedback">Feedback</h2>
+          <p>We are very happy to receive feedback about your stay.  It doesn't matter if you leave a review on AirBnB or send us a message.  Please also let us know if there was any damage on your arrival,  if you broke anything yourself, or if you have any ideas  how we can make the accommodation even better.
 </p>
         </div>
       </div>
