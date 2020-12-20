@@ -54,5 +54,5 @@ gulp.task('default', gulp.parallel(['sass', 'html', 'copy'], function() {
     gulp.watch(htmlPattern, gulp.series('html'));
     gulp.watch(translationPattern, gulp.series('html'));
     gulp.watch(otherFilesPattern, gulp.series('copy'));
-    gulp.watch("dist/**", browserSync.reload);
+    gulp.watch("dist/**").on('change', browserSync.reload);
 }));
