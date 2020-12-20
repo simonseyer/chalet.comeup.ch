@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('_header.html')
+
+<body>
+
+  @@include('_nav.html', {"recommendations": "active"})
+
+  <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('/images/hero_bg_3.jpg');">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-7 text-center">
+          <h1 class="text-white">${{ recommendations.header.title }}$</h1>
+          <p>${{ recommendations.header.subtitle }}$</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="site-section border-bottom">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2>Molkerei Schönried</h2>
+          <p>
+            Die lokale Molkerei alleine ist ein Grund nach Schönried zu kommen. Jeden Morgen
+            bringen die Bauern die frische Milch, welche zu einfach vorzüglichen Produkten verarbeitet werden. Unsere Favoriten:
+
+            <ul>
+              <li>Der <a href="https://www.bergmolkerei.ch/product/joghurt-fruchtig-fein/">Schoki-Joguhrt</a> — einfach unglaublich lecker und findet man in dieser Form fast nirgends</li>
+              <li>Das <a href="https://www.bergmolkerei.ch/product/fondue-hausmischung-fuer-kalte-tage-2/">Käse-Fondue</a> — fertig vorbereitet kann es einfach mit dem Caquelon in der Wohnung zubreitet werden</li>
+              <li>Den kleinen Weichkäse <a href="https://www.bergmolkerei.ch/product/schoenriederli-die-mischung-machts/">Schönriederli</a> — wunderbar lecker mit Ziegen- und Kuhmilch</li>
+              <li>Hervorragenden <a href="https://www.bergmolkerei.ch/product/raclettkaese-cremig-und-aromatisch/">Raclettekäse</a> — für eine weitere Schweizer Spezialität</li>
+            </ul>
+          </p>
+
+          <p>
+            Auf der Website könnt ihr euch weiter <a href="https://www.bergmolkerei.ch/shop/"> inspieren lassen</a> und findet auch die <a href="https://www.bergmolkerei.ch/kontakt/">Öffnungszeiten</a>.
+          </p>
+
+        </div>
+
+        <div class="col-md-6">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  @@include('_footer.html')
+
+</body>
+
+</html>
