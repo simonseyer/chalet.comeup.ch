@@ -6,7 +6,7 @@ const i18n        = require('gulp-html-i18n');
 const filter      = require('gulp-filter');
 
 const buildFolder = './dist'
-const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/*', 'src/js/*', 'src/CNAME']
+const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/*', 'src/js/*', 'src/CNAME', 'src/fonts/**/*']
 const scssPattern = "src/scss/**/*.scss"
 const htmlPattern = "src/*.html"
 const translationPattern = "src/lang/**/*.yaml"

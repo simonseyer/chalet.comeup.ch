@@ -82,7 +82,7 @@
 						top: 50%;
 						right: 0;
 						transform: translateY(-50%);
-						font-family: 'icomoon';
+						font-family: 'bootstrap-icons';
 					}
 				}
 				.dropdown {
@@ -151,7 +151,7 @@
 						&.has-children {
 							> a {
 								&:before {
-									content: "\e315";
+									content: "\f273";
 									right: 20px;
 								}
 							}
@@ -304,8 +304,8 @@
 			&:before {
 				font-size: 12px;
 				z-index: 20;
-				font-family: "icomoon";
-				content: "\f078";
+				font-family: bootstrap-icons;
+				content: "\f273";
 				position: absolute;
 				top: 50%;
 				left: 50%;
