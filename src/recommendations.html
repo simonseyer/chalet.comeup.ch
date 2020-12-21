@@ -7,9 +7,9 @@
   @@include('_nav.html', {"recommendations": "active"})
 
   @@include('_hero.html', {
-    "image": "hero_bg_3", 
-    "title": "${{ recommendations.header.title }}$",
-    "subtitle": "${{ recommendations.header.subtitle }}$"
+  "image": "hero_bg_3",
+  "title": "${{ recommendations.header.title }}$",
+  "subtitle": "${{ recommendations.header.subtitle }}$"
   })
 
   <div class="site-section border-bottom">
@@ -17,93 +17,66 @@
       <div class="row">
 
         <div class="col-md-10">
-          <h2>Einkaufen</h2>
+          <h2>${{ recommendations.shopping.title }}$</h2>
 
-          <h3>Molkerei</h3>
-          <p>
-            Die lokale Molkerei alleine ist ein Grund nach Schönried zu kommen. Jeden Morgen
-            bringen die Bauern die frische Milch, welche zu einfach vorzüglichen Produkten verarbeitet werden. Unsere Favoriten:
-          </p>
+          <h3>${{ recommendations.shopping.dairy.title }}$</h3>
+          <p>${{ recommendations.shopping.dairy.text1 }}$</p>
 
           <ul>
-              <li>Der <a href="https://www.bergmolkerei.ch/product/joghurt-fruchtig-fein/">Schoki-Joguhrt</a> — einfach unglaublich lecker und findet man in dieser Form fast nirgends</li>
-              <li>Das <a href="https://www.bergmolkerei.ch/product/fondue-hausmischung-fuer-kalte-tage-2/">Käse-Fondue</a> — fertig vorbereitet kann es einfach mit dem Caquelon in der Wohnung zubreitet werden</li>
-              <li>Den kleinen Weichkäse <a href="https://www.bergmolkerei.ch/product/schoenriederli-die-mischung-machts/">Schönriederli</a> — wunderbar lecker mit Ziegen- und Kuhmilch</li>
-              <li>Hervorragender <a href="https://www.bergmolkerei.ch/product/raclettkaese-cremig-und-aromatisch/">Raclettekäse</a> — für eine weitere Schweizer Spezialität</li>
-            </ul>
-
-          <p>
-            Auf der Website findet ihr weitere <a href="https://www.bergmolkerei.ch/shop/"> Inspirationen</a> und die <a href="https://www.bergmolkerei.ch/kontakt/">Öffnungszeiten</a>.
-          </p>
-
-          <h3>Buure Metzg</h3>
-          <p>
-            Auch wenn wir nicht oft Fleisch essen, so können wir sagen, dass auch der lokale Metzger Angebote von toller Qualität hat. Und nicht nur wegen Fleisch, sondern auch wegen frischem Gemüse gehen wir gerne dort hin. Unsere Favoriten:
-          </p>
-          <ul>
-            <li>Der gemischte Salat — schon fertig gerupft und gewaschen</li>
-            <li>Die Salat-Soße — sie hat es in sich, ist aber auch wirklich lecker</li>
+            <li>${{ recommendations.shopping.dairy.favorite1 }}$</li>
+            <li>${{ recommendations.shopping.dairy.favorite2 }}$</li>
+            <li>${{ recommendations.shopping.dairy.favorite3 }}$</li>
+            <li>${{ recommendations.shopping.dairy.favorite4 }}$</li>
           </ul>
 
-          <p>
-            Die Öffnungszeiten findet ihr auf <a href="https://goo.gl/maps/KdxRwW4iuDNh7WEj7">Google Maps</a>.
-          </p>
-        
-          <h3>Chnusper Becke</h3>
-          <p>
-            Der Bäcker in Schönried bietet nicht nur leckere Backwaren sondern ist gleichzeitig auch der lokale Supermarkt. Günstiger wird's beim Coop oder Migros in Gstaad, aber für den spontanen Einkauf allemal zu Empfehlen. Unsere Favoriten:
-          </p>
+          <p>${{ recommendations.shopping.dairy.text2 }}$</p>
 
+          <h3>${{ recommendations.shopping.butcher.title }}$</h3>
+          <p>${{ recommendations.shopping.butcher.text1 }}$</p>
           <ul>
-              <li>Die Nusskrapfen — der perfekte Snack zum Kaffee am Nachmittag</li>
-              <li>Die Pizza aus der Gefriertruhe — wirklich lecker, wenn man mal nicht selbst kochen will</li>
-            </ul>
-
-          <p>
-            Wenn ihr nach Brötchen sucht, empfehlen wir euch tatsächlich die Molkerei. Die sind etwas größer und wir mögen sie lieber. 
-          </p>
-          <p>
-            Die Öffnungszeiten findet man leider nicht online, aber generell haben die Läden über Mittag und am Sonntag geschlossen.
-          </p>
-
-          <h3>Coop & Migros in Gstaad</h3>
-
-          <p>
-            Für den allgemeinen Bedarf empfehlen wir einen Einkaufsbummel nach Gstaad. Dort finden sich mit Coop und Migros Filialen der beiden großen Schweizer Supermarkt-Ketten, in welchen sich vergleichsweise günstig einkaufen lässt. Zudem lässt es sich auch immer nett durch die Gstaadter Fußgängerzone mit weiteren Einkaufsmöglichkeiten schlendern. 
-          </p>
-
-          <p>
-            Am entspanntesten kommt man in wenigen Minuten mit dem Zug nach Gstaad. Dabei kann man nicht nur die Schweizer Eisenbahnkultur sondern auch atemberaubende Ausblicke genießen. Sehr empfehlenswert. Ansonsten braucht man auch nicht viel mehr als 10 Minuten mit dem Auto nach Gstaad. Und wenn das Wetter einlädt, kann man auch sehr gut eine Strecke zu Fuß laufen.
-          </p>
-
-          <h2>Ausgehen</h2>
-
-          <h3>Hotel Kernen</h3>
-          <p>
-            Wir gehen gerne zum Abendessen ins Hotel Kernen. Es gibt eine abwechslungsreiche Karte mit Schweizer Spezialitäten, vegetarischen Gerichten und verführerischen Nachspeisen. Besonders schätzen wir das urige Ambiente, vor allem im Sommer auf der Terasse mit Ausblick auf das Horneggli und die Wispile sowie die freundliche Bedienung. Unsere Favoriten:
-          </p>
-
-          <ul>
-            <li>Edwin’s Hausburger — ein Genuss mit Raclettekäse</li>
-            <li>Das Älpler Rösti — die Schweizer Spezialität</li>
+            <li>${{ recommendations.shopping.butcher.favorite1 }}$</li>
+            <li>${{ recommendations.shopping.butcher.favorite2 }}$</li>
           </ul>
 
-          <p>
-            Die ganze Karte findet ihr auf der <a href="https://www.hotel-kernen.ch/de/gaschtronomie/">hier</a>.
-          </p>
+          <p>${{ recommendations.shopping.butcher.text2 }}$</p>
 
-          <h3>Cafe Bärgsunne</h3>
+          <h3>${{ recommendations.shopping.bakery.title }}$</h3>
+          <p>${{ recommendations.shopping.bakery.text1 }}$</p>
 
-          <p>
-            Für einen Kaffe und ein Stück Kuchen am Nachmittag gehen wir sehr gerne in das Cafe Bärgsunne. Man kann wunderbar draußen in der Sonne sitzen und die Gastfreundschaft genießen.
-          </p>
+          <ul>
+            <li>${{ recommendations.shopping.bakery.favorite1 }}$</li>
+            <li>${{ recommendations.shopping.bakery.favorite2 }}$</li>
+          </ul>
 
-          <p>Alle Infos zur Bärgsunne findet ihr unter <a href="https://www.baergsunne-schoenried.ch">baergsunne-schoenried.ch</a></p>
+          <p>${{ recommendations.shopping.bakery.text2 }}$ </p>
+          <p>${{ recommendations.shopping.bakery.text3 }}$</p>
 
-          <h3>Pizzaria Da Corrado</h3>
-          <p>
-            Gerade um die Ecke findet ihr die Pizzeria Da Corrado. Dort könnt ihr nicht nur gemütlich vor Ort speisen, sondern euch auch schnell mal eine Pizza für zu Hause abholen. Die Speisekarte findet ihr auf der <a href="https://dacorrado.ch">Website</a>.
-          </p>
+          <h3>${{ recommendations.shopping.supermarket.title }}$</h3>
+
+          <p>${{ recommendations.shopping.supermarket.text1 }}$</p>
+
+          <p>${{ recommendations.shopping.supermarket.text2 }}$</p>
+
+          <h2>${{ recommendations.restaurants.title }}$</h2>
+
+          <h3>${{ recommendations.restaurants.kernen.title }}$</h3>
+          <p>${{ recommendations.restaurants.kernen.text1 }}$</p>
+
+          <ul>
+            <li>${{ recommendations.restaurants.kernen.favorite1 }}$</li>
+            <li>${{ recommendations.restaurants.kernen.favorite2 }}$</li>
+          </ul>
+
+          <p>${{ recommendations.restaurants.kernen.text2 }}$</p>
+
+          <h3>${{ recommendations.restaurants.baergsunne.title }}$</h3>
+
+          <p>${{ recommendations.restaurants.baergsunne.text1 }}$</p>
+
+          <p>${{ recommendations.restaurants.baergsunne.text2 }}$</p>
+
+          <h3>${{ recommendations.restaurants.corrado.title }}$</h3>
+          <p>${{ recommendations.restaurants.corrado.text1 }}$</p>
         </div>
       </div>
     </div>
