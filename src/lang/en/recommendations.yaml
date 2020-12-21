@@ -1,0 +1,135 @@
+meta:
+  description: Our local recommendations for Schönried and the region of Saanen
+header:
+  title: Local recommendations
+  subtitle: Where we like eat and shop
+restaurants:
+  baergsunne:
+    text1: >-
+      For a coffee and a piece of cake in the afternoon, we like to go to Cafe
+      Bärgsunne. 
+
+      You can sit outside in the sun and enjoy the hospitality.
+    text2: >-
+      You can find all information about the Bärgsunne at <a
+      href="https://www.baergsunne-schoenried.ch"> baergsunne-schoenried.ch</a>.
+    title: Cafe Bärgsunne
+  corrado:
+    text1: >-
+      The Da Corrado Pizzeria is just around the corner. 
+
+      There you can not only dine comfortably on site, but also quickly pick up
+      a pizza to take home. 
+
+      You can find the menu on the <a href="https://dacorrado.ch">website</a>.
+    title: Pizzaria Da Corrado
+  kernen:
+    favorite1: Edwin’s house burger - a pleasure with raclette cheese
+    favorite2: The alpine rösti - the Swiss specialty
+    text1: >-
+      We like to go to the Hotel Kernen for dinner. 
+
+      There is a varied menu with Swiss specialties, vegetarian dishes and
+      tempting desserts. 
+
+      We particularly appreciate the rustic ambience, especially in summer on
+      the terrace with a view of the Horneggli and the Wispile, as well as the
+      friendly service. 
+
+      Our favorites:
+    text2: >-
+      You can find the whole menu on <a
+      href="https://www.hotel-kernen.ch/de/gaschtronomie/">here</a>.
+    title: Hotel Kernen
+  title: Going out
+shopping:
+  bakery:
+    favorite1: The nut fritters - the perfect afternoon coffee snack
+    favorite2: >-
+      The pizza from the freezer - really delicious if you don't want to cook
+      yourself
+    text1: >-
+      The bakery in Schönried not only offers delicious baked goods but is also
+      the local supermarket. 
+
+      It's cheaper at Coop or Migros in Gstaad, but definitely recommended for
+      spontaneous shopping. 
+
+      Our favorites:
+    text2: |-
+      If you are looking for bread rolls, we actually recommend the dairy. 
+      They are a little bigger and we like them better.
+    text3: >-
+      Unfortunately, the opening times cannot be found online, but the shops are
+      generally closed for lunch and on Sundays.
+    title: Chnusper Becke
+  butcher:
+    favorite1: The mixed salad - already plucked and washed
+    favorite2: 'The salad sauce - it has it all, but it is also really delicious'
+    text1: >-
+      Even if we don't eat meat often, we can say that the local butcher also
+      has offers of great quality. 
+
+      And we like to go there not only for meat, but also for fresh vegetables. 
+
+      Our favorites:
+    text2: >-
+      You can find the opening times on <a
+      href="https://goo.gl/maps/KdxRwW4iuDNh7WEj7">Google Maps</a>.
+    title: Buure butcher
+  dairy:
+    favorite1: >-
+      The <a href="https://www.bergmolkerei.ch/product/joghurt-fruchtig-fein/">
+      Schoki-Yoguhrt </a> - simply unbelievably tasty and hardly found anywhere
+      in this form
+    favorite2: >-
+      The <a
+      href="https://www.bergmolkerei.ch/product/fondue-hausbeispiel-fuer-kalte-tage-2/">
+      cheese fondue </a> - ready-made it can easily be prepared with the
+      caquelon in the 
+
+      Flat to be spread
+    favorite3: >-
+      The little soft cheese <a
+      href="https://www.bergmolkerei.ch/product/schoenriederli-die-beispiel-machts/">
+      Schönriederli </a> - wonderfully delicious with goat and cow milk
+    favorite4: >-
+      Excellent <a
+      href="https://www.bergmolkerei.ch/product/raclettkaese-cremig-und-aromatisch/">
+      Raclette cheese </a> - for another Swiss specialty
+    text1: >-
+      The local dairy alone is a reason to come to Schönried. 
+
+      Every morning the farmers bring the fresh milk, which is processed into
+      simply excellent products. 
+
+      Our favorites:
+    text2: >-
+      On the website you can find more <a
+      href="https://www.bergmolkerei.ch/shop/">inspirations</a> and the <a
+      href = "https://www.bergmolkerei.ch/kontakt/" 
+
+      >opening times</a>.
+    title: Dairy
+  supermarket:
+    text1: >-
+      For general needs, we recommend a shopping trip to Gstaad. 
+
+      There are branches of the two large Swiss supermarket chains in the form
+      of Coop and Migros, in which you can shop relatively cheaply. 
+
+      In addition, it is always nice to stroll through the Gstaadter pedestrian
+      zone with further shopping opportunities.
+    text2: >-
+      The easiest way to get to Gstaad is by train in a few minutes. 
+
+      You can not only enjoy the Swiss railway culture but also breathtaking
+      views. 
+
+      Highly recommended. 
+
+      Otherwise you don't need much more than 10 minutes by car to Gstaad. 
+
+      And if the weather is inviting, you can also walk a distance very well.
+    title: Coop and Migros
+  title: Shopping

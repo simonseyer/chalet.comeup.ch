@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="${{ _lang_ }}$">
+@@include('_header.html', {"description": "${{ recommendations.meta.description }}$"})
+
+<body>
+
+  @@include('_nav.html', {"recommendations": "active"})
+
+  @@include('_hero.html', {
+  "image": "hero_bg_3",
+  "title": "${{ recommendations.header.title }}$",
+  "subtitle": "${{ recommendations.header.subtitle }}$"
+  })
+
+  <div class="site-section border-bottom">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-10">
+          <h2>${{ recommendations.shopping.title }}$</h2>
+
+          <h3>${{ recommendations.shopping.dairy.title }}$</h3>
+          <p>${{ recommendations.shopping.dairy.text1 }}$</p>
+
+          <ul>
+            <li>${{ recommendations.shopping.dairy.favorite1 }}$</li>
+            <li>${{ recommendations.shopping.dairy.favorite2 }}$</li>
+            <li>${{ recommendations.shopping.dairy.favorite3 }}$</li>
+            <li>${{ recommendations.shopping.dairy.favorite4 }}$</li>
+          </ul>
+
+          <p>${{ recommendations.shopping.dairy.text2 }}$</p>
+
+          <h3>${{ recommendations.shopping.butcher.title }}$</h3>
+          <p>${{ recommendations.shopping.butcher.text1 }}$</p>
+          <ul>
+            <li>${{ recommendations.shopping.butcher.favorite1 }}$</li>
+            <li>${{ recommendations.shopping.butcher.favorite2 }}$</li>
+          </ul>
+
+          <p>${{ recommendations.shopping.butcher.text2 }}$</p>
+
+          <h3>${{ recommendations.shopping.bakery.title }}$</h3>
+          <p>${{ recommendations.shopping.bakery.text1 }}$</p>
+
+          <ul>
+            <li>${{ recommendations.shopping.bakery.favorite1 }}$</li>
+            <li>${{ recommendations.shopping.bakery.favorite2 }}$</li>
+          </ul>
+
+          <p>${{ recommendations.shopping.bakery.text2 }}$ </p>
+          <p>${{ recommendations.shopping.bakery.text3 }}$</p>
+
+          <h3>${{ recommendations.shopping.supermarket.title }}$</h3>
+
+          <p>${{ recommendations.shopping.supermarket.text1 }}$</p>
+
+          <p>${{ recommendations.shopping.supermarket.text2 }}$</p>
+
+          <h2>${{ recommendations.restaurants.title }}$</h2>
+
+          <h3>${{ recommendations.restaurants.kernen.title }}$</h3>
+          <p>${{ recommendations.restaurants.kernen.text1 }}$</p>
+
+          <ul>
+            <li>${{ recommendations.restaurants.kernen.favorite1 }}$</li>
+            <li>${{ recommendations.restaurants.kernen.favorite2 }}$</li>
+          </ul>
+
+          <p>${{ recommendations.restaurants.kernen.text2 }}$</p>
+
+          <h3>${{ recommendations.restaurants.baergsunne.title }}$</h3>
+
+          <p>${{ recommendations.restaurants.baergsunne.text1 }}$</p>
+
+          <p>${{ recommendations.restaurants.baergsunne.text2 }}$</p>
+
+          <h3>${{ recommendations.restaurants.corrado.title }}$</h3>
+          <p>${{ recommendations.restaurants.corrado.text1 }}$</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  @@include('_footer.html')
+
+</body>
+
+</html>
