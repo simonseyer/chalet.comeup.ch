@@ -6,17 +6,11 @@
 
   @@include('_nav.html', {"info": "active"})
 
-  <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('/images/hero_bg_2.jpg');">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-7 text-center">
-          <h1 class="text-white">${{ info.header.title }}$</h1>
-          <p>${{ info.header.subtitle }}$</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  @@include('_hero.html', {
+    "image": "hero_bg_2", 
+    "title": "${{ info.header.title }}$",
+    "subtitle": "${{ info.header.subtitle }}$"
+  })
 
   <div class="site-section border-bottom">
     <div class="container">
@@ -65,7 +59,10 @@
         <div class="col-md-6">
           <h2 id="parking">${{ info.parking.title }}$</h2>
           <a href="/images/map.png">
-            <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="${{ info.parking.image }}$">
+            <picture>
+              <source type="image/webp" srcset="/images/map.webp">
+              <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="${{ info.parking.image }}$">
+            </picture>
           </a>          
           <p>${{ info.parking.text1 }}$</p>
           <p>${{ info.parking.text2 }}$</p>

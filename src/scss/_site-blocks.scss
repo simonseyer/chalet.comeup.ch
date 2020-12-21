@@ -25,6 +25,14 @@
 			height: calc(30vh);		
 		}
 	}
+	img {
+		object-fit: cover;
+		object-position: top;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+	}
 	.sub-text {
 		font-size: $font-size-base + .1rem;	
 		text-transform: uppercase;
