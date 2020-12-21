@@ -8,9 +8,11 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <meta name=description content="Alle Informationen rund um das über AirBnB vermiete Apartment in Schönried  im Berner Oberland der Schweiz.
+">
 
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700">
+        href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700&display=swap">
 
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="/fonts/bootstrap-icons/bootstrap-icons.css">
@@ -38,7 +40,7 @@
 
             <ul class="site-menu js-clone-nav d-none d-lg-block">
               <li class="@@home"><a href="/de/index.html">Home</a></li>
-              <li class="active"><a href="/de/info.html">Infos zur Wohnung</a></li>
+              <li class="active"><a href="/de/info.html">Das Apartment</a></li>
               <li class="@@contact"><a href="/de/contact.html">Kontakt</a></li>
               <li class="has-children">
                 <a href="#" class="collapse-link">🇩🇪 Sprache</a>
@@ -67,17 +69,22 @@
   <div class="site-mobile-menu-body"></div>
 </div> <!-- .site-mobile-menu -->
 
-  <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('/images/hero_bg_2.jpg');">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-7 text-center">
-          <h1 class="text-white">Alle Infos zur Wohnung</h1>
-          <p>Was ihr vor Ort wissen müsst</p>
-        </div>
+  <div class="site-blocks-cover inner-page-cover overlay">
+  <picture>
+    <source type="image/webp" srcset="/images/hero/hero_bg_2_small.webp" media="(max-width: 479px)">
+    <source type="image/webp" srcset="/images/hero/hero_bg_2.webp">
+    <img src="/images/hero/hero_bg_2.jpg" alt="Hero background image">
+  </picture>
+
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-7 text-center">
+        <h1 class="text-white">Alle Infos zur Wohnung</h1>
+        <p>Was ihr vor Ort wissen müsst</p>
       </div>
     </div>
   </div>
-
+</div>
 
   <div class="site-section border-bottom">
     <div class="container">
@@ -126,7 +133,10 @@
         <div class="col-md-6">
           <h2 id="parking">Parken</h2>
           <a href="/images/map.png">
-            <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="Karte mit Parkplätzen">
+            <picture>
+              <source type="image/webp" srcset="/images/map.webp">
+              <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="Karte mit Parkplätzen">
+            </picture>
           </a>          
           <p>Es gibt einen Stellplatz in der Tiefgarage, den ihr nutzen könnt. Wenn ihr vor dem Haus steht,  einfach Richtung Dorfstrasse zurück fahren und die erste Einfahrt links nehmen (1. auf der Karte).  Der Wohnungsschlüssel passt in das untere Schloss der Säule und öffnet das Tor.
 </p>
@@ -158,9 +168,9 @@
 </p>
 
           <h2 id="guest_card">Gästekarte</h2>
-          <p>Bei eurem Besuch steht euch die Gstaad Gästekarte zur Verfügung.  Sie bietet eine schöne Möglichkeit, die Angebote der Region vergünstigt zu nutzen. Alle Angebote findet ihr unter <a href="https://www.gstaad.ch/gaestekarte" target="_blank">gstaad.ch/gaestekarte</a>.
+          <p>Bei eurem Besuch steht euch die Gstaad Gästekarte zur Verfügung.  Sie bietet eine schöne Möglichkeit, die Angebote der Region vergünstigt zu nutzen. Alle Angebote findet ihr unter <a href="https://www.gstaad.ch/gaestekarte">gstaad.ch/gaestekarte</a>.
 </p>
-          <p>Das beste ist, dass ihr von Mai bis Ende Oktober für wenig Geld die Gstaad Card kaufen könnt. Dort sind Bergbahnen, verschiedene öffentliche Verkehrsmittel sowie diverse Angebote zur  Freizeitgestaltung inklusive bzw. vergünstigt. Alles dazu unter  <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card" target="_blank">gstaad.ch/aktuell/angebote/gstaad-card</a>.
+          <p>Das beste ist, dass ihr von Mai bis Ende Oktober für wenig Geld die Gstaad Card kaufen könnt. Dort sind Bergbahnen, verschiedene öffentliche Verkehrsmittel sowie diverse Angebote zur  Freizeitgestaltung inklusive bzw. vergünstigt. Alles dazu unter  <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card">gstaad.ch/aktuell/angebote/gstaad-card</a>.
 </p>
           <p>Die Gästekarte liegt in der Wohnung aus. Da sie nicht pro Gast sondern pro Ferienwohnung ausgegeben wird,  bitten wir euch, sie bei eurer Abreise auch wieder in der Wohnung zu belassen. Danke!
 </p>
@@ -236,10 +246,8 @@
         <div class="col-md-12">
             <p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;
-                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-                with <i class="bi-heart-fill text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                    target="_blank">Colorlib</a>
+                Copyright &copy; 2021 All rights reserved | This template is made
+                with <i class="bi-heart-fill text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
         </div>

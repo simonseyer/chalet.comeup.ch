@@ -78,8 +78,8 @@ a {
     outline: none;
     box-shadow: none !important; }
   .btn.btn-secondary {
-    background-color: #e6e7e9;
-    border-color: #e6e7e9;
+    background-color: #a0caff;
+    border-color: #a0caff;
     color: #000; }
   .btn.btn-sm {
     font-size: 0.9rem; }
@@ -517,6 +517,13 @@ a {
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
     min-height: 600px;
     height: calc(30vh); }
+  .site-blocks-cover img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1; }
   .site-blocks-cover .sub-text {
     font-size: 1.1rem;
     text-transform: uppercase;
