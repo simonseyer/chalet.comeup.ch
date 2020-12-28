@@ -1,11 +1,85 @@
 meta:
   description: >
-    Here you can find all the information about a flat in Schönried, Switzerland, which you can
-    you can rent through AirBnB as well as information and recommendations in the region.
+    Here you can find all the information about a flat in Schönried,
+    Switzerland, which you can you can rent through AirBnB as well as
+    information and recommendations in the region.
 header:
   title: Welcome in Schönried
   subtitle: Chalet Gassegüetli
   book: Book now
-info:
-  title: Guest Info
-  text: On our <a href='info.html'>Apartment Info</a> page you find everything you need to know during your visit.
+amenities:
+  text: >-
+    The apartment is equipped with a kitchen with a stove, oven, coffee maker,
+    kettle, refrigerator and everything you need for cooking. 
+    The cozy living room invites you to linger and the modern smart TV provides
+    evening entertainment. 
+    Here you can find all the <a href="info.html">information</a> that you
+    need on site.
+  title: Amenities
+apartment:
+  text: >-
+    Located in the middle of the Swiss Alps and surrounded by mountains, you can
+    enjoy breathtaking views and nature from the balcony or from the numerous
+    hiking trails or ski slopes. 
+    With its two bedrooms and 5 beds plus a sofa bed, the apartment accommodates
+    the whole family without any problems. 
+    You can spend cozy evenings in the large living room with an Alpine
+    panorama.
+  title: The apartment
+balkony:
+  image: View from the balcony
+  text1: >-
+    From the apartment's balcony you have a breathtaking view of the surrounding
+    mountains, the glaciers in the distance and the ski area on the doorstep.
+  text2: >-
+    You can't get enough of this view and in summer the spacious balcony invites
+    you to linger.
+bedroom1:
+  image: The small bedroom
+  text1: >-
+    In the small of the two bedrooms you can sleep relaxed. 
+    And every morning you look forward to the moment you pull the curtains
+    aside, open the window and sniff the fresh mountain air.
+bedroom2:
+  image: The great bedroom
+  text1: >-
+    The large bedroom has space for three people. 
+    And the room is not only good for sleeping, with a comfortable chair and
+    another desk you can also relax.
+kitchen:
+  image: The well-equipped kitchen
+  text1: >-
+    The kitchen of the apartment is equipped with everything you need for
+    cooking. 
+    Stove, refrigerator, kitchen appliances, etc. is everything is available. 
+    And you always have the most important spices at hand.
+  text2: >-
+    We also offer you free coffee from the Senseo machine. 
+    You can find what we can recommend as a delicious sweet from the bakery <a
+    href="recommendations.html">here</a>.
+livingroom:
+  image: The cozy living room
+  text1: >-
+    Even from the cozy living room you always have a view of the mountains. 
+    You can sit comfortably together on the couch, whether reading or watching
+    TV.
+  text2: >-
+    The whole family has space at the dining table and the desk (one of two) and
+    the fast internet connection allow home offices in picturesque surroundings.
+location:
+  text: >-
+    The apartment is located on the first floor with a perfect view of the
+    Alps. 
+    It is located in a quiet side street near the town center and only a few
+    minutes' walk away from the ski lift with access to the Gstaad Mountation
+    Rides ski area. 
+    The mountains invite you to all sorts of activities, whether skiing, hiking
+    or paragliding.
+  title: location
+surroundings:
+  text: >-
+    In Schönried and in nearby Gstaad you will find everything your heart
+    desires. 
+    Local specialties, shopping and nice bars and restaurants. 
+    Check out our <a href="recommendations.html">recommendations</a>!
+  title: The environment
