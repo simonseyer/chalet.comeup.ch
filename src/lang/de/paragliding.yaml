@@ -1,0 +1,53 @@
+header:
+  title: Paragliding
+  subtitle: Die Schweiz aus der Luft erleben
+flyareas:
+  title: Fluggebiete
+  text: Das Berner Oberland besitzt einige sehr schöne Fluggebiete die von unserer Wohnung sehr gut zu erreichen sind. Vom Balkon hat man zwei dieser Fluggebiete den Hornberg und die Wispile sehr gut im Blick. Bisher sind wir nur an diesen zwei Bergen geflogen, wir werden die Liste aber nach und nach mit unseren Erfahrungen erweitern.
+  paragstaadLink: Fluggebiete auf paragstaad.ch
+  para365Link: Fluggebiete in der Region Bern auf paragliding365.com
+  cableCarsLink: Interaktive Karte der Bergbahnen auf gstaad.ch
+  cableCarsLink2: Betriebdaten der Bergbahnen in der Region
+  cableCars: Die Startplätze der Wispile und des Hornberg können bequem mit einer Bergbahn erreicht werden. Die Talstation der Bergbahn Wispile befindet sich in Gstaad, wohin auch mit dem Zug gefahren werden kann.
+  switch: (Eventuell auf Winter wechseln)
+wispile:
+    title: Wispile
+    windyLink: Windsituation auf der Wispile (Windy)
+    text: Die Wispile ist ein sehr schöner Berg für Abgleiter, Soaren am Hang und bietet Anschluss um auf Strecke zu gehen. Es hat Startplätze nach Süd (unterhalb der Bergstation), nach West (Links der Bergstation, von der Station aus gesehen) und Ost (hierfür muss man den Hügel rauf auf den man schaut wenn man aus der Station kommt). Morgens kann man mit dem Talwind meist von Ost aus fliegen, jedoch sollte ab 12 Uhr aufgepasst werden, weil die Gefahr steigt, im östlichen Tal abzusaufen (der Landeplatz ist im Nordwesten).
+    para365Link: Fluggebiet bei paragliding365.com
+hornberg:
+    title: Hornberg
+    windyLink: Windsituation auf dem Hornberg (Windy)
+    text: Der Hornberg mit dem Horneggli und dem Hornflue bietet offizielle Startplätze in Richtung Nord und Richtung West. Gelandet wird am Besten in Schönried im Moos, nicht weit von der Wohnung oder wenn es gut trägt sogar direkt über dem Partkplatz hinter dem Haus. Gerade Abends lassen sich schöne Soaringflüge erleben.
+    para365Link: Fluggebiet bei paragliding365.com
+
+weather:
+  title: Wetterinfos
+  text: >
+    Um das Flugwetter zu beurteilen, bieten wir hier verschiedene Quellen und Links an die wir selbst nutzen. 
+    Das Wetter im Saanental kann stark vom Bisewind und Südföhn beeinflusst werden, daher sollte auch ein Blick hierauf nicht fehlen.
+    Natürlich geschiet eine Beurteilung des Wetters auf eigene Gefahr und es sollten noch andere oder eigene Quellen genutzt werden. 
+  winds: Spezielle Winde
+  foehnLink: Föhnprognose auf meteocentrale.ch
+  biseLink: Bisewind auf meteocentral.ch
+  general: Allgemeine Wetterlage Schweiz
+  srfLink: Wetter auf SRF meteo (Die Videos sind in Schweizerdeutsch ;))
+  local: Lokales Wetter und Wind
+  meteoSchweizLink: Wetterprognose auf meteoschweiz.ch
+  meteoSchweizLink2: Großwetterlage auf meteoschweiz.ch
+  meteomediaLink: Wetterstation Saanen
+  meteomediaText: Diese Wetterstation befindet sich in Saanen und zeigt daher vorrangig den Wind im West-Ost gelegenem Tal an. Die Informationen hieraus können interessant sein für Landungen in eben diesem Tal z.B. bei Landungen in Schönried. 
+  KachelmannLink: Windprognose verschiedener Wettermodelle auf Kachelmannwetter.com
+  meteoBlueLink: Lokales Wetter auf MeteoBlue
+  mountainText: Ein Blick auf die im Süden gelegene Wetterstation auf dem Berg Les Diablerets kann bei der Föhneinschätzung helfen.
+  mountainDiablerets: Wetterstation auf dem Gletscher Les Diablerets
+paraIntro:
+  title: Der Traum vom Fliegen
+  text: >
+    Lassen Sie den Traum vom Fliegen wahr werden. Mit dem Gleitschirm lautlos über die Landschaft schweben ist eine Erfahrung die man nicht mehr vergisst.
+    Auf dieser Seite finden Sie vorallem Informationen für Gleitschirmpiloten über verschiedene Flugebiete und alles was man sonst noch Wissen sollte.
+  text2: > 
+    Für alle die Paragliding mal ausprobieren wollen, können wir die Flugschule <a href="https://www.timetofly.ch/"
+          alt="link to paragliding school TimeToFly"
+          >TimeToFly</a> empfehlen. Hier können Sie selbst das Gleitschirmen fliegen lernen oder einen Tandemflug buchen.
+        

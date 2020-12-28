@@ -1,0 +1,101 @@
+header:
+  title: Paragliding
+  subtitle: Experience Switzerland from the air
+flyareas:
+  title: Fly spots
+  text: >
+    The Berner Oberland has a lot of beautiful flying spots and our flat
+    Gasseguetly is right in the middle. From the balcony you can see two
+    mountains with starting spots Hornberg and Wispile.
+  cableCars: >-
+    The starting points of the Wispile and the Hornberg can be easily reached
+    with a mountain railway. 
+
+    The valley station of the Wispile mountain railway is in Gstaad, which can
+    also be reached by train.
+  cableCarsLink: Interactive map of the mountain railways on gstaad.ch
+  cableCarsLink2: Operating data of the mountain railways in the region
+  para365Link: Flying areas in the Bern region on paragliding365.com
+  paragstaadLink: Flight areas on paragstaad.ch
+  switch: (Possibly switch to winter)
+wispile:
+  title: Wispile
+  windyLink: Wind situation Wispile (Windy)
+  para365Link: Flight area at paragliding365.com
+  text: >-
+    The Wispile is a very beautiful mountain for slides, soars on slopes and
+    offers a connection to go on a route. 
+
+    It has starting points to the south (below the mountain station), to the
+    west (left of the mountain station, seen from the station) and east (for
+    this you have to go up the hill that you look at when you come out of the
+    station). 
+
+    In the morning you can usually fly from the east with the valley wind, but
+    you should be careful after 12 noon because the risk of drowning increases
+    in the eastern valley (the landing site is in the northwest).
+hornberg:
+  title: Hornberg
+  windyLink: Wind situation Hornberg (Windy)
+  para365Link: Flight area at paragliding365.com
+  text: >-
+    The Hornberg with the Horneggli and the Hornflue offer official starting
+    points to the north and west. 
+
+    The best place to land is Schönried im Moos, not far from the apartment or,
+    if it is good, even directly above the parking lot behind the house. 
+
+    Beautiful soaring flights can be experienced in the evenings.
+weather:
+  title: Weather Links
+  foehnLink: Foehn forecast on meteocentrale.ch
+  KachelmannLink: Wind forecast for various weather models on Kachelmannwetter.com
+  biseLink: Bisewind on meteocentral.ch
+  general: General weather situation in Switzerland
+  local: Local weather and wind
+  meteoBlueLink: Local weather on MeteoBlue
+  meteoSchweizLink: Weather forecast on meteoschweiz.ch
+  meteoSchweizLink2: General weather situation on meteoschweiz.ch
+  meteomediaLink: Saanen weather station
+  meteomediaText: >-
+    This weather station is located in Saanen and therefore primarily shows the
+    wind in the west-east valley. 
+
+    The information from this can be of interest for landings in this valley,
+    e.g. 
+
+    at landings in Schönried.
+  mountainDiablerets: Weather station on the Les Diablerets glacier
+  mountainText: >-
+    A look at the weather station in the south on the mountain Les Diablerets
+    can help with the foehn assessment.
+  srfLink: Weather on SRF meteo (The videos are in Swiss German;))
+  text: >-
+    In order to evaluate the flying weather, we offer various sources and links
+    that we use ourselves. 
+
+    The weather in the Saanen valley can be strongly influenced by the Bisewind
+    and the southern foehn, so a look at this should not be missing. 
+
+    Of course, an evaluation of the weather is done at your own risk and other
+    sources or your own sources should be used.
+  winds: Special winds
+paraIntro:
+  title: The Dream of flying
+  text: >-
+    Let the dream of flying come true. 
+
+    Floating silently over the landscape with a paraglider is an experience that
+    you will never forget. 
+
+    On this page you will find information for paraglider pilots about different
+    flight areas and everything else you should know.
+  text2: >-
+    For everyone who wants to try paragliding, we can recommend the flight school <a
+    href = "https://www.timetofly.ch/"
+          
+    alt = "link to paragliding school TimeToFly"
+          
+    > Recommend TimeToFly </a>. 
+
+    Here you can learn to paraglide yourself or book a tandem flight.
