@@ -1637,15 +1637,27 @@ figure figcaption {
 .featured-property-half {
   position: relative;
   background: #fff;
-  margin-top: -100px;
-  box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1); }
-  .featured-property-half .image {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-height: 300px; }
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; }
+  .featured-property-half.first {
+    margin-top: -100px; }
+  @media (max-width: 767.98px) {
+    .featured-property-half {
+      margin-left: -5px;
+      margin-right: -5px; } }
+  .featured-property-half .picture {
+    padding: 0; }
+  .featured-property-half img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
   .featured-property-half .text {
-    padding: 100px; }
+    padding: 6%; }
+    @media (max-width: 767.98px) {
+      .featured-property-half .text {
+        padding: 1.5em; } }
+    .featured-property-half .text h2 {
+      margin-top: 0; }
     .featured-property-half .text ul {
       padding: 0;
       margin: 0;
