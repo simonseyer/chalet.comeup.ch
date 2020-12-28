@@ -38,14 +38,14 @@ gulp.task('html', function() {
       .pipe(gulp.dest(buildFolder));
 });
 
-gulp.task('hero_images', function() {
+gulp.task('images', function() {
   return gulp
       .src("src/images/**/*.{png,jpg}", { "base" : "src" })
       .pipe(webp())
       .pipe(gulp.dest(buildFolder))
 });
 
-gulp.task('small_hero_images', function() {
+gulp.task('small_images', function() {
   return gulp
       .src("src/images/**/*.{png,jpg}", { "base" : "src" })
       .pipe(resizer({width: 1000}))
@@ -60,10 +60,10 @@ gulp.task('copy', function() {
       .pipe(gulp.dest(buildFolder));
 })
 
-gulp.task('build', gulp.parallel(['sass', 'html', 'copy', 'hero_images', 'small_hero_images']));
+gulp.task('build', gulp.parallel(['sass', 'html', 'copy', 'images', 'small_images']));
 
 // Static Server + watching scss/html files
-gulp.task('default', gulp.parallel(['sass', 'html', 'copy', 'hero_images', 'small_hero_images'], function() {
+gulp.task('default', gulp.parallel(['sass', 'html', 'copy', 'images', 'small_images'], function() {
     browserSync.init({
         server: "dist"
     });
@@ -72,6 +72,6 @@ gulp.task('default', gulp.parallel(['sass', 'html', 'copy', 'hero_images', 'smal
     gulp.watch(htmlPattern, gulp.series('html'));
     gulp.watch(translationPattern, gulp.series('html'));
     gulp.watch(otherFilesPattern, gulp.series('copy'));
-    gulp.watch("src/images/hero/*", gulp.parallel('hero_images', 'small_hero_images'));
+    gulp.watch("src/images/hero/*", gulp.parallel('images', 'small_images'));
     gulp.watch("dist/**").on('change', browserSync.reload);
 }));
