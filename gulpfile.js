@@ -1,9 +1,12 @@
 const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass');
+const webp        = require('gulp-webp');
+const resizer     = require('gulp-image-resize');
 const fileinclude = require('gulp-file-include');
 const i18n        = require('gulp-html-i18n');
 const filter      = require('gulp-filter');
+const rename      = require('gulp-rename');
 
 const buildFolder = './dist'
 const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/*', 'src/js/*', 'src/CNAME', 'src/fonts/**/*']
@@ -35,6 +38,22 @@ gulp.task('html', function() {
       .pipe(gulp.dest(buildFolder));
 });
 
+gulp.task('hero_images', function() {
+  return gulp
+      .src("src/images/hero/*")
+      .pipe(gulp.dest(buildFolder + "/images/hero"))
+      .pipe(webp())
+      .pipe(gulp.dest(buildFolder + "/images/hero"))
+});
+
+gulp.task('small_hero_images', function() {
+  return gulp
+      .src("src/images/hero/*")
+      .pipe(resizer({width: 1000}))
+      .pipe(rename({suffix: '_small'}))
+      .pipe(webp())
+      .pipe(gulp.dest(buildFolder + "/images/hero"))
+});
 
 gulp.task('copy', function() {
   return gulp
@@ -42,10 +61,10 @@ gulp.task('copy', function() {
       .pipe(gulp.dest(buildFolder));
 })
 
-gulp.task('build', gulp.parallel(['sass', 'html', 'copy']));
+gulp.task('build', gulp.parallel(['sass', 'html', 'copy', 'hero_images', 'small_hero_images']));
 
 // Static Server + watching scss/html files
-gulp.task('default', gulp.parallel(['sass', 'html', 'copy'], function() {
+gulp.task('default', gulp.parallel(['sass', 'html', 'copy', 'hero_images', 'small_hero_images'], function() {
     browserSync.init({
         server: "dist"
     });
@@ -54,5 +73,6 @@ gulp.task('default', gulp.parallel(['sass', 'html', 'copy'], function() {
     gulp.watch(htmlPattern, gulp.series('html'));
     gulp.watch(translationPattern, gulp.series('html'));
     gulp.watch(otherFilesPattern, gulp.series('copy'));
-    gulp.watch("dist/**", browserSync.reload);
+    gulp.watch("src/images/hero/*", gulp.parallel('hero_images', 'small_hero_images'));
+    gulp.watch("dist/**").on('change', browserSync.reload);
 }));

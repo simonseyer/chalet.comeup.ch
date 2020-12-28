@@ -1,3 +1,7 @@
+meta:
+  description: >
+    All information about the flat in Schönried in the Bernese Oberland in Switzerland, 
+    which is rented out via AirBnB
 header:
   title: All information about the flat
   subtitle: What you need to know on site
@@ -35,12 +39,12 @@ guest_card:
   text1: >
     During your visit you can use the Gstaad guest card. 
     It is a great way to take advantage of the region's offers at a reduced rate.
-    You can find all the offers at <a href="https://www.gstaad.ch/gaestekarte" target="_blank">gstaad.ch/guest-card</a>.
+    You can find all the offers at <a href="https://www.gstaad.ch/gaestekarte">gstaad.ch/guest-card</a>.
   text2: >
     The best thing is that you can buy the Gstaad Card from May to the end of October for very little money.
     Mountain railways, various forms of public transport and a range of leisure activities are included or 
     leisure activities are included or reduced. You can find out all about it at 
-    <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card" target="_blank">gstaad.ch/aktuell/angebote/gstaad-card</a>.
+    <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card">gstaad.ch/aktuell/angebote/gstaad-card</a>.
   text3: >
     The guest card is available in the flat. As it is not issued per guest but per holiday flat, 
     we kindly ask you to leave it in the flat when you leave. Thank you!

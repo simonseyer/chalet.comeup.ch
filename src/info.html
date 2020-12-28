@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="de">
-@@include('_header.html')
+<html lang="${{ _lang_ }}$">
+@@include('_header.html', {"description": "${{ info.meta.description }}$"})
 
 <body>
 
   @@include('_nav.html', {"info": "active"})
 
-  <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('/images/hero_bg_2.jpg');">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-7 text-center">
-          <h1 class="text-white">${{ info.header.title }}$</h1>
-          <p>${{ info.header.subtitle }}$</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  @@include('_hero.html', {
+    "image": "hero_bg_2", 
+    "title": "${{ info.header.title }}$",
+    "subtitle": "${{ info.header.subtitle }}$"
+  })
 
   <div class="site-section border-bottom">
     <div class="container">
@@ -65,7 +59,10 @@
         <div class="col-md-6">
           <h2 id="parking">${{ info.parking.title }}$</h2>
           <a href="/images/map.png">
-            <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="${{ info.parking.image }}$">
+            <picture>
+              <source type="image/webp" srcset="/images/map.webp">
+              <img src="/images/map.png" class="pt-2 pr-5 pb-4" style="width: 100%;" alt="${{ info.parking.image }}$">
+            </picture>
           </a>          
           <p>${{ info.parking.text1 }}$</p>
           <p>${{ info.parking.text2 }}$</p>
@@ -91,12 +88,12 @@
           <p>${{ info.guest_card.text1 }}$</p>
           <p>${{ info.guest_card.text2 }}$</p>
           <p>${{ info.guest_card.text3 }}$</p>
+
+          <h2 id="additional_equipment">${{ info.additional_equipment.title }}$</h2>
+          <p>${{ info.additional_equipment.text }}$</p>
         </div>
 
         <div class="col-md-6 ml-auto">
-          <h2 id="additional_equipment">${{ info.additional_equipment.title }}$</h2>
-          <p>${{ info.additional_equipment.text }}$</p>
-
           <h2 id="coffee">${{ info.coffee.title }}$</h2>
           <p>${{ info.coffee.text }}$</p>
 

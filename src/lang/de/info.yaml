@@ -1,3 +1,7 @@
+meta:
+  description: >
+    Alle Informationen rund um das über AirBnB vermiete Apartment in Schönried 
+    im Berner Oberland der Schweiz.
 header:
   title: Alle Infos zur Wohnung
   subtitle: Was ihr vor Ort wissen müsst
@@ -35,19 +39,19 @@ guest_card:
   text1: >
     Bei eurem Besuch steht euch die Gstaad Gästekarte zur Verfügung. 
     Sie bietet eine schöne Möglichkeit, die Angebote der Region vergünstigt zu nutzen.
-    Alle Angebote findet ihr unter <a href="https://www.gstaad.ch/gaestekarte" target="_blank">gstaad.ch/gaestekarte</a>.
+    Alle Angebote findet ihr unter <a href="https://www.gstaad.ch/gaestekarte">gstaad.ch/gaestekarte</a>.
   text2: >
     Das beste ist, dass ihr von Mai bis Ende Oktober für wenig Geld die Gstaad Card kaufen könnt.
     Dort sind Bergbahnen, verschiedene öffentliche Verkehrsmittel sowie diverse Angebote zur 
     Freizeitgestaltung inklusive bzw. vergünstigt. Alles dazu unter 
-    <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card" target="_blank">gstaad.ch/aktuell/angebote/gstaad-card</a>.
+    <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card">gstaad.ch/aktuell/angebote/gstaad-card</a>.
   text3: >
-    Die Gästekarte liegt in der Wohnung aus. Da sie nicht pro Gast sondern pro Ferienwohnung ausgegeben wird, 
-    bitten wir euch, sie bei eurer Abreise auch wieder in der Wohnung zu belassen. Danke!
+    Die Gästekarte liegt in der Wohnung aus. Da sie nicht pro Gast, sondern pro Ferienwohnung ausgegeben wird, 
+    bitten wir euch, die Gästekarte bei eurer Abreise in der Wohnung zu belassen. Danke!
 additional_equipment:
   title: Gläser, Fondue & Raclette
   text: >
-    Neben der Küche findet ihr im linken Fach des Sideboards im Wohnzimmer noch weitere Gläser. 
+    Weitere Trinkgläser findet ihr im linken Fach des Sideboards im Wohnzimmer. 
     In den anderen Fächern findet ihr auch das Caquelon für Fondue und das Raclette-Gerät.
 coffee:
   title: Kaffee
@@ -78,18 +82,18 @@ parking:
   title: Parken
   image: Karte mit Parkplätzen
   text1: >
-    Es gibt einen Stellplatz in der Tiefgarage, den ihr nutzen könnt. Wenn ihr vor dem Haus steht, 
-    einfach Richtung Dorfstrasse zurück fahren und die erste Einfahrt links nehmen (1. auf der Karte). 
+    Es gibt einen Tiefgaragen-Stellplatz, den ihr nutzen könnt. Wenn ihr vor dem Haus steht, müsst ihr 
+    Richtung Dorfstrasse zurück fahren und die erste Einfahrt links nehmen (1. auf der Karte). 
     Der Wohnungsschlüssel passt in das untere Schloss der Säule und öffnet das Tor. 
   text2: >
     Der Stellplatz ist ungefähr mittig auf der linken Seite und mit der Nummer 23 (Wohnung 7) beschriftet.
-    Über die Tür neben dem Parkplatz kommt ihr ins Treppenhaus.
+    Über die Tür links neben dem Parkplatz gelangt ihr in den Skiraum und ins Treppenhaus mit Zugang zur Wohnung.
     Wenn ihr mit mehr als einem Fahrzeug anreist, könnt ihr auch den kostenlosen Parkplatz
     gegenüber der Wohnung nutzen (2. auf der Karte).
 keys:
   title: Schlüssel
   text1: >
-    Den Schlüssel findet ihr im Schlüsselsafe neben dem Eingang (Marke EMIUP). 
+    Den Schlüssel findet ihr im Schlüsselsafe rechts neben dem Hauseingang (Marke EMIUP). 
     Den Code erhaltet ihr nach eurer Buchung über AirBnB. 
   text2: >
     Der Schlüssel schließt die Haus- und Wohnungstür, das Tiefgaragentor sowie den Skiraum.
@@ -118,8 +122,8 @@ dishes:
 power:
   title: Stecker-Adapter & Kabel
   text: >
-    Steckdosen-Adapter für deutsche Stecker, Mehrfachstecker und Verlängerungskabel findet ihr im Sideboard im Wohnzimmer. 
-    In der zweiten Schublade von rechts findet ihr was ihr sucht.
+    Steckdosen-Adapter für deutsche Stecker, Mehrfachstecker und Verlängerungskabel findet ihr im Sideboard im Wohnzimmer, 
+    in der zweiten Schublade von rechts.
 phone:
   title: Telefon
   text: >
@@ -139,7 +143,7 @@ laundry:
   text2: >
     Die Waschküche findet ihr im Keller. Am Ende vom Treppenhaus links durch die Tür und gleich wieder links.
     Bitte beachtet die ausgehängten Anweisungen, hinterlasst die Waschküche sauber und tragt euch in die
-    ausliegende Liste ein (Wohnung Nr. 7). Zur Bedienung, hier ein <a href="/images/waschen.mp4">kleines Video</a>.
+    ausliegende Liste ein (Wohnung Nr. 7). Zur Unterstützung, hier ein <a href="/images/waschen.mp4">Bedienungs-Video</a>.
 wifi:
   title: WiFi
   text: >
