@@ -7,31 +7,80 @@
   @@include('_nav.html', {"home": "active"})
 
   <div class="site-blocks-cover overlay">
-    <picture>
-      <source type="image/webp" srcset="/images/hero/hero_bg_2_small.webp" media="(max-width: 479px)">
-      <source type="image/webp" srcset="/images/hero/hero_bg_2.webp">
-      <img src="/images/hero/hero_bg_2.jpg" alt="Hero background image">
-    </picture>
+    @@include('_picture.html', { "image": "hero/hero_bg_2", "alt": "Hero background image" })
 
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-8 text-center">
           <h1 class="mb-4">${{ index.header.title }}$</h1>
           <p class="mb-5">${{ index.header.subtitle }}$</p>
-          <p><a href="https://www.airbnb.de/rooms/43816606" target="_blank" class="btn btn-primary px-5 py-3">${{ index.header.book }}$</a>
+          <p>
+            <a href="https://www.airbnb.de/rooms/43816606" target="_blank" class="btn btn-primary px-5 py-3">${{ index.header.book }}$</a>
           </p>
         </div>
       </div>
     </div>
   </div>
 
-
   <div class="container">
+    <div class="featured-property-half first row">
+      <div class="text col-md-12">
+        <h2>${{ index.apartment.title }}$</h2>
+        <p>${{ index.apartment.text }}$</p>
+        <h3>${{ index.surroundings.title }}$</h3>
+        <p>${{ index.surroundings.text }}$</p>
+        <h3>${{ index.location.title }}$</h3>
+        <p>${{ index.location.text }}$</p>
+        <h3>${{ index.amenities.title }}$</h3>
+        <p>${{ index.amenities.text }}$</p>
+      </div>
+    </div>
+
     <div class="featured-property-half row">
-      <div class="image col-md-6 col-sm-12" style="background-image: url('/images/hero/hero_bg_1.jpg')"></div>
+      <div class="picture col-md-6 col-sm-12">
+        @@include('_picture.html', { "image": "index/DSC_1317", "alt": "${{ index.balkony.image }}$" })
+      </div>
       <div class="text col-md-6 col-sm-12">
-        <h2>${{ index.info.title }}$</h2>
-        <p class="mb-5">${{ index.info.text }}$</p>
+        <p>${{ index.balkony.text1 }}$ </p>
+        <p>${{ index.balkony.text2 }}$</p>
+      </div>
+    </div>
+
+    <div class="featured-property-half row">
+      <div class="picture col-md-6 col-sm-12">
+        @@include('_picture.html', { "image": "index/DSC_1302_01", "alt": "${{ index.livingroom.image }}$" })
+      </div>
+      <div class="text col-md-6 col-sm-12">
+        <p>${{ index.livingroom.text1 }}$</p>
+        <p>${{ index.livingroom.text2 }}$</p>
+      </div>
+    </div>
+
+    <div class="featured-property-half row">
+      <div class="picture col-md-6 col-sm-12">
+        @@include('_picture.html', { "image": "index/DSC_1265", "alt": "${{ index.bedroom1.image }}$" })
+      </div>
+      <div class="text col-md-6 col-sm-12">
+        <p>${{ index.bedroom1.text1 }}$</p>
+      </div>
+    </div>
+
+    <div class="featured-property-half row">
+      <div class="picture col-md-6 col-sm-12">
+        @@include('_picture.html', { "image": "index/DSC_1242", "alt": "${{ index.bedroom2.image }}$" })
+      </div>
+      <div class="text col-md-6 col-sm-12">
+        <p>${{ index.bedroom2.text1 }}$</p>
+      </div>
+    </div>
+
+    <div class="featured-property-half row">
+      <div class="picture col-md-6 col-sm-12">
+        @@include('_picture.html', { "image": "index/DSC_1358", "alt": "${{ index.kitchen.image }}$" })
+      </div>
+      <div class="text col-md-6 col-sm-12">
+        <p>${{ index.kitchen.text1 }}$</p>
+        <p>${{ index.kitchen.text2 }}$</p>
       </div>
     </div>
   </div>

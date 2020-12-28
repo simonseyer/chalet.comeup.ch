@@ -1,11 +1,77 @@
 meta:
   description: >
-    Hier findest du alle Informationen rund um ein Apartment in Schönried, Schweiz, welches
-    du über AirBnB mieten kannst sowie Informationen und Empfehlungen in der Region
+    Hier findest du alle Informationen rund um ein Apartment in Schönried,
+    Schweiz, welches du über AirBnB mieten kannst sowie Informationen und
+    Empfehlungen in der Region
 header:
   title: Willkommen in Schönried
   subtitle: Chalet Gassegüetli
   book: Jetzt buchen
-info:
-  title: Besucher-Information
-  text: In unseren <a href='info.html'>Infos zur Wohnung</a> findet ihr alles, was vor Ort wichtig ist.
+apartment:
+  title: Das Apartment
+  text: >-
+    Mitten in den Schweizer Alpen gelegen und umgeben von Bergen könnt ihr vom
+    Balkon oder von den zahlreichen Wanderwegen oder Skipisten atemberaubende
+    Aussichten und Natur genießen. Die Wohnung beherbergt mit ihren zwei
+    Schlafzimmern und 5 Betten plus Schlaf-Couch ohne Probleme die  ganze
+    Familie. In dem großen Wohnzimmer mit Alpenpanorama könnt ihr gemütliche
+    Abende verbringen.
+surroundings:
+  title: Die Umgebung
+  text: >-
+    In Schönried und im nahe gelegenen Gstaad findet ihr alles was das Herz
+    begehrt. Lokale Spezialitäten,  Shopping sowie nette Bars und Restaurants.
+    Schaut euch unsere <a href="recommendations.html">Empfehlungen</a> an!
+location:
+  title: Lage
+  text: >-
+    Die Wohnung ist im ersten Stock gelegen mit perfekten Ausblick auf die
+    Alpen.  Sie liegt in einer ruhigen Nebenstraße nahe dem Ortskern und nur
+    wenige Gehminuten entfernt vom Skilift mit  Einstieg ins Skigebiet Gstaad
+    Mountation Rides. Die Berge laden zu allerlei Aktivitäten ein,  ob zum
+    Ski-fahren, Wandern oder Paragliden.
+amenities:
+  title: Austattung
+  text: >-
+    Die Wohnung ist ausgestattet mit einer Küche mit Herd, Ofen, Kaffeemaschine,
+    Wasserkocher, Kühlschrank und alles  was man zum Kochen braucht. Das
+    gemütliche Wohnzimmer lädt zum Verweilen ein und der moderne Smart-TV sorgt
+    für  abendliche Unterhaltung. Hier findet ihr alle <a
+    href="info.html">Informationen</a>, die ihr vor Ort braucht.
+balkony:
+  image: Aussicht vom Balkon
+  text1: >-
+    Vom Balkon des Apartments aus habt ihr einen atemberaubende Blick auf die
+    umliegenden Berge, die Gletscher in der Ferne und das Skigebiet vor der Haustür.
+  text2: >-
+    An diesem Ausblick sieht man sich nicht satt und im Sommer lädt der
+    großügige Balkon zum Verweilen ein.
+livingroom:
+  image: Das gemütliche Wohnzimmer
+  text1: >-
+    Auch vom gemütlichen Wohnzimmer hat man die Berge immer im Blick. Auf der
+    Couch lässt sich gemütlich beisammen sitzen, ob zum Lesen oder Fernsehen.
+  text2: >-
+    Am Esstisch hat die ganze Familie Platz und der Schreibtisch (einer von
+    zweien) und die schnelle Internet-Anbindung erlauben Home-Office in malerischer Umgebung.
+bedroom1:
+  image: Das kleine Schlafzimmer
+  text1: >-
+    Im kleinen der beiden Schlafzimmer schläft es sich entspannt. Und jeden
+    Morgen freut man sich auf den Augenblick die Vorhänge zur Seite zu ziehen, den Fenster aufzumachen und 
+    die frische Bergluft zu schnuppern.
+bedroom2:
+  image: Das große Schlafzimmer
+  text1: >-
+    Im großen Schlafzimmer haben gleich drei Personen Platz. Und nicht nur zum
+    Schlafen ist der Raum gut, mit einem gemütlichen Stuhl und einem weiteren Schreibtisch kann man sich 
+    auch gut mal zurück ziehen.
+kitchen:
+  image: Die gut ausgestatte Küche
+  text1: >-
+    Die Küche der Wohnung ist mit allem ausgestattet, was man zum Kochen
+    braucht. Herd, Kühlschrank, Küchengeräte, etc. ist ist alles vorhanden. 
+    Und auch die wichtigsten Gewürze hast du auch immer zu Hand.
+  text2: >-
+    Zudem bieten wir euch kostenlosen Kaffee aus der Senseo-Maschine an. Was wir
+    euch als lecker Süßigkeit vom Bäcker dazu empfehlen können findet ihr <a href="recommendations.html">hier</a>.
