@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="${{ _lang_ }}$">
-@@include('_header.html', {"description": "${{ contact.meta.description }}$"})
+
+@@include('_header.html', {
+  "description": "${{ contact.meta.description }}$",
+  "title": "${{ contact.meta.title }}$"
+})
 
 <body>
 
