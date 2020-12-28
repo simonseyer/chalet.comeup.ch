@@ -1,117 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('_header.html')
+@@include('_header.html')
 
-  <body>
-    @@include('_nav.html', {"paragliding": "active"})
+<body>
+  @@include('_nav.html', {"paragliding": "active"})
 
-    <div
-      class="site-blocks-cover inner-page-cover overlay"
-      style="background-image: url('/images/hero_bg_1.jpg')"
-    >
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 text-center">
-            <h1 class="text-white">${{ paragliding.header.title }}$</h1>
-            <p>${{ paragliding.header.subtitle }}$</p>
-          </div>
+  <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('/images/hero_bg_1.jpg')">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-7 text-center">
+          <h1 class="text-white">${{ paragliding.header.title }}$</h1>
+          <p>${{ paragliding.header.subtitle }}$</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="site-section border-bottom">
-      <div class="container">
-        <h2>${{ paragliding.paraIntro.title }}$</h2>
-        <p>${{ paragliding.paraIntro.text }}$</p>
-        <p>${{ paragliding.paraIntro.text2 }}$</p>
+  <div class="site-section border-bottom">
+    <div class="container">
+      <h2>${{ paragliding.paraIntro.title }}$</h2>
+      <p>${{ paragliding.paraIntro.text }}$</p>
+      <p>${{ paragliding.paraIntro.text2 }}$</p>
+      <h2>${{ paragliding.flyareas.title }}$</h2>
+      <p>${{ paragliding.flyareas.text }}$</p>
+      <a class="d-block" href="http://www.paragstaad.com/de/sites_decollage.php"
+        alt="link to paragstaad.com">${{paragliding.flyareas.paragstaadLink}}$</a>
+      <a class="d-block" href="https://www.paragliding365.com/index-p-flightarea1_2_29.html"
+        alt="link to paragliding365.com">${{paragliding.flyareas.para365Link}}$</a>
+      </p>
+      <p>
+        ${{ paragliding.flyareas.cableCars }}$
+      </p>
+      <a class="d-block" href="https://www.gstaad.ch/interaktivekarte/index.php"
+        alt="link to interactive map of the area">${{paragliding.flyareas.cableCarsLink}}$
+        ${{paragliding.flyareas.switch}}$</a>
+      <a class="d-block" href="https://www.gstaad.ch/bergbahnen/betriebsdaten/betriebsdaten-sommer.html"
+        alt="link to cable cars operating times">${{paragliding.flyareas.cableCarsLink2}}$
+        ${{paragliding.flyareas.switch}}$</a>
 
-        <h2>${{ paragliding.flyareas.title }}$</h2>
 
-        <p>${{ paragliding.flyareas.text }}$</p>
-        <p>
-          <a
-            href="http://www.paragstaad.com/de/sites_decollage.php"
-            alt="link to paragstaad.com"
-            >${{paragliding.flyareas.paragstaadLink}}$</a
-          >
-        </p>
+      <h3>${{ paragliding.wispile.title }}$</h3>
+      <p>
+        ${{paragliding.wispile.text}}$
+      </p>
 
-        <h3>${{ paragliding.wispile.title }}$</h3>
-        <p>
-          <a
-            href="https://www.windy.com/46.436/7.295?46.439,7.329,12,m:eWyagnk"
-            alt="windy link to wispile"
-            >${{paragliding.wispile.windyLink}}$</a
-          >
-        </p>
-        <h3>${{ paragliding.hornberg.title }}$</h3>
-        <p>
-          <a
-            href="https://www.windy.com/?46.501,7.316,14,m:eWEagnm"
-            alt="windy link to hornberg"
-            >${{paragliding.hornberg.windyLink}}$</a
-          >
-        </p>
-        <h2>${{ paragliding.weather.title }}$</h2>
-        <p>${{ paragliding.weather.text}}$</p>
-        <h3>${{ paragliding.weather.general }}$</h3>
 
-        <a
-          class="d-block"
-          href="https://www.meteoschweiz.admin.ch/home/wetter/prognosen/allgemeine-lage.html"
-          alt="link to Meteo Schweiz general situation"
-          >${{ paragliding.weather.meteoSchweizLink2 }}$</a
-        >
 
-        <a
-          class="d-block"
-          href="https://www.srf.ch/meteo"
-          alt="link to SRF meteo"
-          >${{ paragliding.weather.srfLink }}$</a
-        >
+      <a class="d-block" href="https://www.paragliding365.com/index-p-flightarea_details_247.html"
+        alt="link to paragliding365">${{paragliding.wispile.para365Link}}$</a>
+      <a href="https://www.windy.com/46.436/7.295?46.439,7.329,12,m:eWyagnk"
+        alt="windy link to wispile">${{paragliding.wispile.windyLink}}$</a>
 
-        <a
-          class="d-block"
-          href="https://www.meteoschweiz.admin.ch/home.html?tab=report"
-          alt="link to Meteo Schweiz weather forecast"
-          >${{ paragliding.weather.meteoSchweizLink }}$</a
-        >
+      <h3>${{ paragliding.hornberg.title }}$</h3>
+      <p>
+        ${{paragliding.hornberg.text}}$
+      </p>
 
-        <h3>${{ paragliding.weather.local }}$</h3>
+      <a class="d-block" href="https://www.paragliding365.com/index-p-flightarea_details_104.html"
+        alt="link to paragliding365">${{paragliding.hornberg.para365Link}}$</a>
+      <a class="d-block" href="https://www.windy.com/?46.501,7.316,14,m:eWEagnm"
+        alt="windy link to hornberg">${{paragliding.hornberg.windyLink}}$</a>
 
-        <a
-          class="d-block"
-          href="https://www.meteoblue.com/de/wetter/woche/gstaad_schweiz_2660461"
-          alt="link to MeteoBlue weather"
-        >
-          ${{ paragliding.weather.meteoBlueLink }}$</a
-        >
+      <h2>${{ paragliding.weather.title }}$</h2>
+      <p>${{ paragliding.weather.text}}$</p>
+      <h3>${{ paragliding.weather.general }}$</h3>
 
+      <a class="d-block" href="https://www.meteoschweiz.admin.ch/home/wetter/prognosen/allgemeine-lage.html"
+        alt="link to Meteo Schweiz general situation">${{ paragliding.weather.meteoSchweizLink2 }}$</a>
+
+      <a class="d-block" href="https://www.srf.ch/meteo" alt="link to SRF meteo">${{ paragliding.weather.srfLink }}$</a>
+
+      <a class="d-block" href="https://www.meteoschweiz.admin.ch/home.html?tab=report"
+        alt="link to Meteo Schweiz weather forecast">${{ paragliding.weather.meteoSchweizLink }}$</a>
+
+      <h3>${{ paragliding.weather.local }}$</h3>
+
+      <a class="d-block" href="https://www.meteoblue.com/de/wetter/woche/gstaad_schweiz_2660461"
+        alt="link to MeteoBlue weather">
+        ${{ paragliding.weather.meteoBlueLink }}$</a>
+
+      <a class="d-block" href="https://kachelmannwetter.com/ch/vorhersage/2658703-schoenried/xl/euro/windmittel"
+        alt="link to Kachelmann weather">
+        ${{ paragliding.weather.KachelmannLink}}$
+      </a>
+
+      <div class="mt-2">
         <div>${{ paragliding.weather.meteomediaText }}$</div>
-        <a
-          class="d-block"
-          href="  http://wetterstationen.meteomedia.ch/?station=069091&wahl=vorhersage"
-          alt="link to meteomedia weather station"
-        >
+
+        <a class="d-block" href="http://wetterstationen.meteomedia.ch/?station=069091&wahl=vorhersage"
+          alt="link to meteomedia weather station">
           ${{ paragliding.weather.meteomediaLink}}$
         </a>
+      </div>
 
-        <h3>${{ paragliding.weather.winds }}$</h3>
-        <a
-          class="d-block"
-          href="http://www.meteocentrale.ch/de/wetter/foehn-und-bise/foehn.html"
-          alt="link to meteocentrale about foehn situation"
-          >${{ paragliding.weather.foehnLink }}$</a
-        >
-        <a
-          class="d-block"
-          href="http://www.meteocentrale.ch/de/wetter/foehn-und-bise/bise.html"
-          alt="link to meteocentrale about bise situation"
-          >${{ paragliding.weather.biseLink }}$</a
-        >
+      <h3>${{ paragliding.weather.winds }}$</h3>
+      <a class="d-block" href="http://www.meteocentrale.ch/de/wetter/foehn-und-bise/foehn.html"
+        alt="link to meteocentrale about foehn situation">${{ paragliding.weather.foehnLink }}$</a>
+      <a class="d-block" href="http://www.meteocentrale.ch/de/wetter/foehn-und-bise/bise.html"
+        alt="link to meteocentrale about bise situation">${{ paragliding.weather.biseLink }}$</a>
+
+      <div class="mt-2">
+        <div>${{ paragliding.weather.mountainText }}$</div>
+        <a class="d-block" href="https://www.bergfex.ch/genferseegebiet-waadtland/wetter/stationen/les-diablerets/"
+          alt="link to les diableretes mountain">${{ paragliding.weather.mountainDiablerets }}$</a>
       </div>
     </div>
+  </div>
 
-    @@include('_footer.html')
-  </body>
+  @@include('_footer.html')
+</body>
+
 </html>

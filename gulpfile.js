@@ -49,7 +49,7 @@ gulp.task('hero_images', function() {
 gulp.task('small_hero_images', function() {
   return gulp
       .src("src/images/hero/*")
-      .pipe(resizer({width: 1000}))
+      // .pipe(resizer({width: 1000}))
       .pipe(rename({suffix: '_small'}))
       .pipe(webp())
       .pipe(gulp.dest(buildFolder + "/images/hero"))
