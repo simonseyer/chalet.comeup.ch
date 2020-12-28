@@ -9,7 +9,7 @@ const filter      = require('gulp-filter');
 const rename      = require('gulp-rename');
 
 const buildFolder = './dist'
-const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/*', 'src/js/*', 'src/CNAME', 'src/fonts/**/*']
+const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/**', 'src/js/*', 'src/CNAME', 'src/fonts/**/*']
 const scssPattern = "src/scss/**/*.scss"
 const htmlPattern = "src/*.html"
 const translationPattern = "src/lang/**/*.yaml"
@@ -40,19 +40,18 @@ gulp.task('html', function() {
 
 gulp.task('hero_images', function() {
   return gulp
-      .src("src/images/hero/*")
-      .pipe(gulp.dest(buildFolder + "/images/hero"))
+      .src("src/images/**/*.{png,jpg}", { "base" : "src" })
       .pipe(webp())
-      .pipe(gulp.dest(buildFolder + "/images/hero"))
+      .pipe(gulp.dest(buildFolder))
 });
 
 gulp.task('small_hero_images', function() {
   return gulp
-      .src("src/images/hero/*")
+      .src("src/images/**/*.{png,jpg}", { "base" : "src" })
       .pipe(resizer({width: 1000}))
       .pipe(rename({suffix: '_small'}))
       .pipe(webp())
-      .pipe(gulp.dest(buildFolder + "/images/hero"))
+      .pipe(gulp.dest(buildFolder))
 });
 
 gulp.task('copy', function() {
