@@ -7,6 +7,8 @@ const fileinclude = require('gulp-file-include');
 const i18n        = require('gulp-html-i18n');
 const filter      = require('gulp-filter');
 const rename      = require('gulp-rename');
+const os          = require('os');
+const gulpif      = require('gulp-if');
 
 const buildFolder = './dist'
 const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/**', 'src/js/*', 'src/CNAME', 'src/fonts/**/*']
@@ -46,9 +48,10 @@ gulp.task('images', function() {
 });
 
 gulp.task('small_images', function() {
+  const isMacOS = os.platform() == 'darwin'
   return gulp
       .src("src/images/**/*.{png,jpg}", { "base" : "src" })
-      .pipe(resizer({width: 1000}))
+      .pipe(gulpif(isMacOS, resizer({width: 1000})))
       .pipe(rename({suffix: '_small'}))
       .pipe(webp())
       .pipe(gulp.dest(buildFolder))
