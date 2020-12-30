@@ -9,6 +9,7 @@ const filter      = require('gulp-filter');
 const rename      = require('gulp-rename');
 const os          = require('os');
 const gulpif      = require('gulp-if');
+const sitemap     = require('gulp-sitemap');
 
 const buildFolder = './dist'
 const otherFilesPattern = ['src/*.png', 'src/*.ico', 'src/images/**', 'src/js/*', 'src/CNAME', 'src/fonts/**/*']
@@ -63,16 +64,23 @@ gulp.task('copy', function() {
       .pipe(gulp.dest(buildFolder));
 })
 
-gulp.task('build', gulp.parallel(['sass', 'html', 'copy', 'images', 'small_images']));
+gulp.task('sitemap', function() {
+  return gulp
+      .src(buildFolder + '/**/*.html', { read: false })
+      .pipe(sitemap({ siteUrl: 'https://comeup.ch' }))
+      .pipe(gulp.dest(buildFolder));
+})
+
+gulp.task('build', gulp.parallel('sass', gulp.series('html', 'sitemap'), 'copy', 'images', 'small_images'));
 
 // Static Server + watching scss/html files
-gulp.task('default', gulp.parallel(['sass', 'html', 'copy', 'images', 'small_images'], function() {
+gulp.task('default', gulp.parallel('build', function() {
     browserSync.init({
         server: "dist"
     });
 
     gulp.watch(scssPattern, gulp.series('sass'));
-    gulp.watch(htmlPattern, gulp.series('html'));
+    gulp.watch(htmlPattern, gulp.series('html', 'sitemap'));
     gulp.watch(translationPattern, gulp.series('html'));
     gulp.watch(otherFilesPattern, gulp.series('copy'));
     gulp.watch("src/images/hero/*", gulp.parallel('images', 'small_images'));
