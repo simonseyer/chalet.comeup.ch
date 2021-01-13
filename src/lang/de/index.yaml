@@ -58,8 +58,8 @@ livingroom:
 bedroom1:
   image: Das kleine Schlafzimmer
   text1: >-
-    Im kleinen der beiden Schlafzimmer schläft es sich entspannt. Und jeden
-    Morgen freut man sich auf den Augenblick die Vorhänge zur Seite zu ziehen, den Fenster aufzumachen und 
+    Im kleineren der beiden Schlafzimmer schläft es sich entspannt. Und jeden
+    Morgen freut man sich auf den Augenblick die Vorhänge zur Seite zu ziehen, das Fenster zu öffnen und 
     die frische Bergluft zu schnuppern.
 bedroom2:
   image: Das große Schlafzimmer
@@ -72,7 +72,7 @@ kitchen:
   text1: >-
     Die Küche der Wohnung ist mit allem ausgestattet, was man zum Kochen
     braucht. Herd, Kühlschrank, Küchengeräte, etc. ist ist alles vorhanden. 
-    Und auch die wichtigsten Gewürze hast du auch immer zu Hand.
+    Und auch die wichtigsten Gewürze hast immer zu Hand.
   text2: >-
     Zudem bieten wir euch kostenlosen Kaffee aus der Senseo-Maschine an. Was wir
     euch als lecker Süßigkeit vom Bäcker dazu empfehlen können findet ihr <a href="recommendations.html">hier</a>.
