@@ -1,6 +1,6 @@
 meta:
   title: Paragliding
-  description: Unsere Tips und Infos zum Fliegen im Berner Oberland der Schweiz.
+  description: Unsere Tipps und Infos zum Fliegen im Berner Oberland der Schweiz.
 header:
   title: Paragliding
   subtitle: Die Schweiz aus der Luft erleben
@@ -21,7 +21,7 @@ wispile:
 hornberg:
     title: Hornberg
     windyLink: Windsituation auf dem Hornberg (Windy)
-    text: Der Hornberg mit dem Horneggli und dem Hornflue bietet offizielle Startplätze in Richtung Nord und Richtung West. Gelandet wird am Besten in Schönried im Moos, nicht weit von der Wohnung oder wenn es gut trägt sogar direkt über dem Partkplatz hinter dem Haus. Gerade Abends lassen sich schöne Soaringflüge erleben.
+    text: Der Hornberg mit dem Horneggli und dem Hornflue bietet offizielle Startplätze in Richtung Nord und Richtung West. Gelandet wird am besten in Schönried im Moos, nicht weit von der Wohnung oder wenn es gut trägt sogar direkt über dem Partkplatz hinter dem Haus. Gerade Abends lassen sich schöne Soaringflüge erleben.
     para365Link: Fluggebiet bei paragliding365.com
 
 weather:
@@ -29,7 +29,7 @@ weather:
   text: >
     Um das Flugwetter zu beurteilen, bieten wir hier verschiedene Quellen und Links an die wir selbst nutzen. 
     Das Wetter im Saanental kann stark vom Bisewind und Südföhn beeinflusst werden, daher sollte auch ein Blick hierauf nicht fehlen.
-    Natürlich geschiet eine Beurteilung des Wetters auf eigene Gefahr und es sollten noch andere oder eigene Quellen genutzt werden. 
+    Natürlich geschieht eine Beurteilung des Wetters auf eigene Gefahr und es sollten noch andere oder eigene Quellen genutzt werden. 
   winds: Spezielle Winde
   foehnLink: Föhnprognose auf meteocentrale.ch
   biseLink: Bisewind auf meteocentral.ch
@@ -47,8 +47,8 @@ weather:
 paraIntro:
   title: Der Traum vom Fliegen
   text: >
-    Lassen Sie den Traum vom Fliegen wahr werden. Mit dem Gleitschirm lautlos über die Landschaft schweben ist eine Erfahrung die man nicht mehr vergisst.
-    Auf dieser Seite finden Sie vorallem Informationen für Gleitschirmpiloten über verschiedene Flugebiete und alles was man sonst noch Wissen sollte.
+    Lasst den Traum vom Fliegen wahr werden. Mit dem Gleitschirm lautlos über die Landschaft schweben ist eine Erfahrung, die man nicht mehr vergisst.
+    Auf dieser Seite findet ihr vor allem Informationen für Gleitschirmpiloten über verschiedene Flugebiete und alles was man sonst noch wissen sollte.
   text2: > 
     Für alle die Paragliding mal ausprobieren wollen, können wir die Flugschule <a href="https://www.timetofly.ch/"
           alt="link to paragliding school TimeToFly"
