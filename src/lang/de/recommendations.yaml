@@ -44,7 +44,7 @@ shopping:
     text1: >-
       Der Bäcker in Schönried bietet nicht nur leckere Backwaren sondern ist
       gleichzeitig auch der lokale Supermarkt. Günstiger wird's beim Coop oder
-      Migros in Gstaad, aber für den spontanen Einkauf allemal zu Empfehlen.
+      Migros in Gstaad, aber für den spontanen Einkauf allemal zu empfehlen.
       Unsere Favoriten:
     favorite1: Die Nusskrapfen — der perfekte Snack zum Kaffee am Nachmittag
     favorite2: >-
@@ -55,7 +55,8 @@ shopping:
       Die sind etwas größer und wir mögen sie lieber.
     text3: >-
       Die Öffnungszeiten findet man leider nicht online, aber generell haben die
-      Läden über Mittag und am Sonntag geschlossen.
+      Läden über Mittag und am Sonntag geschlossen. In der Hauptsaison im Winter 
+      weichen die Öffnungszeiten teilweise ab.
   supermarket:
     title: Coop & Migros in Gstaad
     text1: >-
@@ -78,18 +79,17 @@ restaurants:
       Wir gehen gerne zum Abendessen ins Hotel Kernen. Es gibt eine
       abwechslungsreiche Karte mit Schweizer Spezialitäten, vegetarischen
       Gerichten und verführerischen Nachspeisen. Besonders schätzen wir das
-      urige Ambiente, vor allem im Sommer auf der Terasse mit Ausblick auf das
+      urige Ambiente, vor allem im Sommer auf der Terrasse mit Ausblick auf das
       Horneggli und die Wispile sowie die freundliche Bedienung. Unsere
       Favoriten:
     favorite1: Edwin’s Hausburger — ein Genuss mit Raclettekäse
     favorite2: Das Älpler Rösti — die Schweizer Spezialität
     text2: >-
-      Die ganze Karte findet ihr auf der <a
-      href="https://www.hotel-kernen.ch/de/gaschtronomie/">hier</a>.
+      Die ganze Karte findet ihr <ahref="https://www.hotel-kernen.ch/de/gaschtronomie/">hier</a>.
   baergsunne:
     title: Cafe Bärgsunne
     text1: >-
-      Für einen Kaffe und ein Stück Kuchen am Nachmittag gehen wir sehr gerne in
+      Für einen Kaffee und ein Stück Kuchen am Nachmittag gehen wir sehr gerne in
       das Cafe Bärgsunne. Man kann wunderbar draußen in der Sonne sitzen und die
       Gastfreundschaft genießen.
     text2: >-
