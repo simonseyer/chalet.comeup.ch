@@ -1,6 +1,6 @@
 const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
-const sass        = require('gulp-sass');
+const sass        = require('gulp-dart-sass');
 const webp        = require('gulp-webp');
 const resizer     = require('gulp-image-resize');
 const fileinclude = require('gulp-file-include');
