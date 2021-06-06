@@ -1,151 +1,177 @@
 meta:
   title: Vor Ort
   description: >
-    Alles was ihr wissen müsst, wenn ihr in unserer Wohnung im Berner Oberland nächtigt. 
+    Alles was ihr wissen müsst, wenn ihr in unserer Wohnung im Berner Oberland
+    nächtigt. 
 header:
   title: Alle Infos zur Wohnung
   subtitle: Was ihr vor Ort wissen müsst
 first_aid:
   title: Erste Hilfe & Feuerlöscher
   text: >
-    Das Erste-Hilfe-Set findet ihr im Sideboard im Wohnzimmer, erste Schublade von rechts.
-    Der Feuerlöscher steht links neben dem Kamin.
+    Das Erste-Hilfe-Set findet ihr im Sideboard im Wohnzimmer, erste Schublade
+    von rechts. Der Feuerlöscher steht links neben dem Kamin.
 windows:
   title: Fensterläden
   text: >
-    Wenn bei eurer Ankunft die Fensterläden geschlossen sind, einfach nach außen klappen und feststellen. 
-    Bei der Abreise könnt ihr die die Läden gerne offen lassen.
+    Wenn bei eurer Ankunft die Fensterläden geschlossen sind, einfach nach außen
+    klappen und feststellen.  Bei der Abreise könnt ihr die die Läden gerne
+    offen lassen.
 feedback:
   title: Feedback
   text: >
-    Wir freuen uns sehr über Feedback zu eurem Aufenthalt. 
-    Egal ob über die AirBnB Bewertung oder als Nachricht an uns. 
-    Sagt auch gerne Bescheid, wenn es bei eurer Ankunft Beschädigungen gab, 
-    ob euch selbst etwas kaputt gegangen ist oder wenn ihr Ideen habt, 
-    wie wir die Unterkunft noch besser gestalten können.
+    Wir freuen uns sehr über Feedback zu eurem Aufenthalt.  Egal ob über die
+    AirBnB Bewertung oder als Nachricht an uns.  Sagt auch gerne Bescheid, wenn
+    es bei eurer Ankunft Beschädigungen gab,  ob euch selbst etwas kaputt
+    gegangen ist oder wenn ihr Ideen habt,  wie wir die Unterkunft noch besser
+    gestalten können.
 tv:
   title: Fernseher
   text1: >
-    Mit dem Smart-TV könnt ihr eure Lieblingssendungen auf Netflix oder Amazon Prime Video 
-    schauen und über die TV-Apps oder den Browser auf beliebige andere Inhalte zugreifen. 
-    Er unterstützt auch AirPlay und Google Cast — wenn ihr im WiFi seid, könnt ihr Inhalte
-    einfach an den Fernseher schicken.
+    Mit dem Smart-TV könnt ihr eure Lieblingssendungen auf Netflix oder Amazon
+    Prime Video  schauen und über die TV-Apps oder den Browser auf beliebige
+    andere Inhalte zugreifen.  Er unterstützt auch AirPlay und Google Cast —
+    wenn ihr im WiFi seid, könnt ihr Inhalte einfach an den Fernseher schicken.
   text2: >
-    Für eine einfacherere Steuerung können wir empfehlen, die LG TV Plus App als Fernbedienung 
-    zu verwenden. Der TV hat keinen Kabelanschluss — deswegen sagt er auch, er sei "nicht programmiert". 
-    Denkt vor eurer Abreise daran, eure Accounts abzumelden.
+    Für eine einfacherere Steuerung können wir empfehlen, die LG TV Plus App als
+    Fernbedienung  zu verwenden. Der TV hat keinen Kabelanschluss — deswegen
+    sagt er auch, er sei "nicht programmiert".  Denkt vor eurer Abreise daran,
+    eure Accounts abzumelden.
 guest_card:
   title: Gästekarte
-  text1: >
-    Bei eurem Besuch steht euch die Gstaad Gästekarte zur Verfügung. 
-    Sie bietet eine schöne Möglichkeit, die Angebote der Region vergünstigt zu nutzen.
-    Alle Angebote findet ihr unter <a href="https://www.gstaad.ch/gaestekarte">gstaad.ch/gaestekarte</a>.
-  text2: >
-    Das beste ist, dass ihr von Mai bis Ende Oktober für wenig Geld die Gstaad Card kaufen könnt.
-    Dort sind Bergbahnen, verschiedene öffentliche Verkehrsmittel sowie diverse Angebote zur 
-    Freizeitgestaltung inklusive bzw. vergünstigt. Alles dazu unter 
-    <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card">gstaad.ch/aktuell/angebote/gstaad-card</a>.
-  text3: >
-    Die Gästekarte liegt in der Wohnung aus. Da sie nicht pro Gast, sondern pro Ferienwohnung ausgegeben wird, 
-    bitten wir euch, die Gästekarte bei eurer Abreise in der Wohnung zu belassen. Danke!
+  text1: >-
+    Bei Besuchen steht euch als unsere Gäste die Gstaad Card zur Verfügung.
+    Neben kostenlosem ÖPNV bietet sie eine Vielzahl weiterer Angebote und
+    Vergünstigungen. So könnt ihr zum Beipiel eine vergünstigte Tageskarte für
+    die Lifte der Region erwerben. Aktuell ist die Gstaad Card nur im Sommer
+    verfügbar.
+  text2: >-
+    Alles Informationen zur Gstaad Card findet ihr unter <a
+    href="https://www.gstaad.ch/aktuell/angebote/gstaad-card">gstaad.ch/aktuell/angebote/gstaad-card</a>.
+
+    Da die Gstaad Card personalisiert ist, benötigen wir zur Austellung pro
+    Person folgende Informationen von euch: <ul><li>Vor- und
+    Nachname</li><li>Geburtsdatum</li><li>Anschrift (Straße, Hausnummer,
+    Postleitzahl, Stadt & Land)</li><li>E-Mail Adresse (zum Versandt der Gstaad
+    Card)</li></ul> 
 additional_equipment:
   title: Gläser, Fondue & Raclette
   text: >
     Weitere Trinkgläser findet ihr im linken Fach des Sideboards im Wohnzimmer. 
-    In den anderen Fächern findet ihr auch das Caquelon für Fondue und das Raclette-Gerät.
+    In den anderen Fächern findet ihr auch das Caquelon für Fondue und das
+    Raclette-Gerät.
 coffee:
   title: Kaffee
   text: >
-    Morgens zum Wachwerden oder für den entspannten Nachmittags-Kaffe mit Blick auf die Berge
-    steht euch in der Küche eine Kaffee-Pad-Machine zur Verfügung. Und wenn ihr euren Kaffee nicht schwarz mögt,
-    so holt euch einfach eine frische Milch von der Kühen aus der Region in der Molkerei im Ort.
+    Morgens zum Wachwerden oder für den entspannten Nachmittags-Kaffe mit Blick
+    auf die Berge steht euch in der Küche eine Kaffee-Pad-Machine zur Verfügung.
+    Und wenn ihr euren Kaffee nicht schwarz mögt, so holt euch einfach eine
+    frische Milch von der Kühen aus der Region in der Molkerei im Ort.
 contact:
   title: Kontakt
   text: >
-    Solltet ihr Fragen oder Probleme haben sind wir natürlich gerne für euch da. Kontaktiert uns entweder
-    über AirBnB oder nutzt die Kontaktmöglichkeit <a href="contact.html"> auf dieser Seite</a>.
+    Solltet ihr Fragen oder Probleme haben sind wir natürlich gerne für euch da.
+    Kontaktiert uns entweder über AirBnB oder nutzt die Kontaktmöglichkeit <a
+    href="contact.html"> auf dieser Seite</a>.
 garbage:
   title: Müll
   text1: >
-    Trennt bitte den Müll vor Ort. Der kleine Mülleimer im Wohnzimmer ist für Papier und Pappe, alles andere
-    könnt ihr im Mülleimer in der Küche entsorgen. Glas/Flaschen stellt einfach unter die Spüle.
+    Trennt bitte den Müll vor Ort. Der kleine Mülleimer im Wohnzimmer ist für
+    Papier und Pappe, alles andere könnt ihr im Mülleimer in der Küche
+    entsorgen. Glas/Flaschen stellt einfach unter die Spüle.
   text2: >
-    Bitte beachtet, dass nur gebührenpflichte Müllsäcke entsorgt werden dürfen. Nutzt deswegen die Müllsäcke
-    vor Ort, wenn ihr selbst den Müll raus bringt.
+    Bitte beachtet, dass nur gebührenpflichte Müllsäcke entsorgt werden dürfen.
+    Nutzt deswegen die Müllsäcke vor Ort, wenn ihr selbst den Müll raus bringt.
 supplies:
   title: Nachschub
   text: >
-    Sollte euch Kaffee, Seife, etc. ausgehen, findet ihr im ganz linken Schrank im großen Schlafzimmer
-    Nachschub. Reinigungsmaterial, Schwämme, etc. findet ihr entweder im mittleren Schrank oder in der Küche
-    im Schrank rechts unterhalb der Spüle (neben dem Mülleimer).
+    Sollte euch Kaffee, Seife, etc. ausgehen, findet ihr im ganz linken Schrank
+    im großen Schlafzimmer Nachschub. Reinigungsmaterial, Schwämme, etc. findet
+    ihr entweder im mittleren Schrank oder in der Küche im Schrank rechts
+    unterhalb der Spüle (neben dem Mülleimer).
 parking:
   title: Parken
   image: Karte mit Parkplätzen
   text1: >
-    Es gibt einen Tiefgaragen-Stellplatz, den ihr nutzen könnt. Wenn ihr vor dem Haus steht, müsst ihr 
-    Richtung Dorfstrasse zurück fahren und die erste Einfahrt links nehmen (1. auf der Karte). 
-    Der Wohnungsschlüssel passt in das untere Schloss der Säule und öffnet das Tor. 
+    Es gibt einen Tiefgaragen-Stellplatz, den ihr nutzen könnt. Wenn ihr vor dem
+    Haus steht, müsst ihr  Richtung Dorfstrasse zurück fahren und die erste
+    Einfahrt links nehmen (1. auf der Karte).  Der Wohnungsschlüssel passt in
+    das untere Schloss der Säule und öffnet das Tor. 
   text2: >
-    Der Stellplatz ist ungefähr mittig auf der linken Seite und mit der Nummer 23 (Wohnung 7) beschriftet.
-    Über die Tür links neben dem Parkplatz gelangt ihr in den Skiraum und ins Treppenhaus mit Zugang zur Wohnung.
-    Wenn ihr mit mehr als einem Fahrzeug anreist, könnt ihr auch den kostenlosen Parkplatz
+    Der Stellplatz ist ungefähr mittig auf der linken Seite und mit der Nummer
+    23 (Wohnung 7) beschriftet. Über die Tür links neben dem Parkplatz gelangt
+    ihr in den Skiraum und ins Treppenhaus mit Zugang zur Wohnung. Wenn ihr mit
+    mehr als einem Fahrzeug anreist, könnt ihr auch den kostenlosen Parkplatz
     gegenüber der Wohnung nutzen (2. auf der Karte).
 keys:
   title: Schlüssel
   text1: >
-    Den Schlüssel findet ihr im Schlüsselsafe rechts neben dem Hauseingang (Marke EMIUP). 
-    Den Code erhaltet ihr nach eurer Buchung über AirBnB. 
+    Den Schlüssel findet ihr im Schlüsselsafe rechts neben dem Hauseingang
+    (Marke EMIUP).  Den Code erhaltet ihr nach eurer Buchung über AirBnB. 
   text2: >
-    Der Schlüssel schließt die Haus- und Wohnungstür, das Tiefgaragentor sowie den Skiraum.
-    Wenn ihr abreist, lasst den Schlüssel bitte unbedingt im Safe und verdreht das Zahlenschloss. 
-    Das empfehlen wir auch, wenn ihr während eures Aufenthalts die Wohnung verlasst (gerade für Gruppen).
+    Der Schlüssel schließt die Haus- und Wohnungstür, das Tiefgaragentor sowie
+    den Skiraum. Wenn ihr abreist, lasst den Schlüssel bitte unbedingt im Safe
+    und verdreht das Zahlenschloss.  Das empfehlen wir auch, wenn ihr während
+    eures Aufenthalts die Wohnung verlasst (gerade für Gruppen).
 ski:
   title: Skiraum
   text: >
-    Ski- und Snowboardausrüstung bitte im Skiraum abstellen. Nicht mit den Skischuhen durch das Treppenhaus
-    gehen! Rechts vom Hauseingang findet ihr die Treppe mit direktem Zugang zum Skiraum.
+    Ski- und Snowboardausrüstung bitte im Skiraum abstellen. Nicht mit den
+    Skischuhen durch das Treppenhaus gehen! Rechts vom Hauseingang findet ihr
+    die Treppe mit direktem Zugang zum Skiraum.
 fireplace:
   title: Kamin
   text: >
-    Die Wohnung verfügt über einen Kamin, welcher aber zur Zeit leider nicht nutzbar ist.
+    Die Wohnung verfügt über einen Kamin, welcher aber zur Zeit leider nicht
+    nutzbar ist.
 cleaning:
   title: Reinigung
   text: >
-    Die Wohnung wird vor eurem Eintreffen mit der bekannten schweizer Gründlichkeit gereinigt und für euch hergerichtet.
-    Wir halten uns dabei an das 
-    <a href="https://www.airbnb.ch/help/article/2809/was-ist-die-erweiterte-reinigung-in-fünf-schritten-von-airbnb?locale=de">AirBnB Reinigungsprotokoll</a>.
-    Bei eurer Abreise bitten wir euch, die Wohnung wieder ordentlich zu verlassen. 
+    Die Wohnung wird vor eurem Eintreffen mit der bekannten schweizer
+    Gründlichkeit gereinigt und für euch hergerichtet. Wir halten uns dabei an
+    das  <a
+    href="https://www.airbnb.ch/help/article/2809/was-ist-die-erweiterte-reinigung-in-fünf-schritten-von-airbnb?locale=de">AirBnB
+    Reinigungsprotokoll</a>. Bei eurer Abreise bitten wir euch, die Wohnung
+    wieder ordentlich zu verlassen. 
 dishes:
   title: Spülen
   text: >
-    Wir würden uns freuen, wenn ihr dreckiges Geschirr direkt abspült und die Küche sauber haltet.
+    Wir würden uns freuen, wenn ihr dreckiges Geschirr direkt abspült und die
+    Küche sauber haltet.
 power:
   title: Stecker-Adapter & Kabel
   text: >
-    Steckdosen-Adapter für deutsche Stecker, Mehrfachstecker und Verlängerungskabel findet ihr im Sideboard im Wohnzimmer, 
-    in der zweiten Schublade von rechts.
+    Steckdosen-Adapter für deutsche Stecker, Mehrfachstecker und
+    Verlängerungskabel findet ihr im Sideboard im Wohnzimmer,  in der zweiten
+    Schublade von rechts.
 phone:
   title: Telefon
   text: >
-    Ihr könnte das Telefon gerne für Telefonate in der Schweiz nutzen. Wenn ihr ins Ausland telefonieren wollt,
-    schmeißt bitte ein paar Franken in die "Wäschekasse" im linken Schrank im großen Schlafzimmer. 
+    Ihr könnte das Telefon gerne für Telefonate in der Schweiz nutzen. Wenn ihr
+    ins Ausland telefonieren wollt, schmeißt bitte ein paar Franken in die
+    "Wäschekasse" im linken Schrank im großen Schlafzimmer. 
 heating:
   title: Heizung
   text: >
-    Das Haus ist normalerweise ganzjährig so warm, dass ihr gar nicht selbst heizen müsst.
+    Das Haus ist normalerweise ganzjährig so warm, dass ihr gar nicht selbst
+    heizen müsst.
 laundry:
   title: Wäsche waschen
   text1: >
-    Im Haus steht euch eine Waschmaschine und ein Trockner gegen Gebühr zur Verfügung. Waschmittel und die Chip-Karte zur Nutzung
-    der Geräte findet ihr im linken Schrank im großen Schlafzimmer. Bitte werft für jeden 
-    Wasch-/Trockengang 5 CHF in die "Wäschkasse", die auch im Schrank steht (oder sagt uns Bescheid, wenn
-    ihr über Paypal/Überweisung bezahlen wollt).
+    Im Haus steht euch eine Waschmaschine und ein Trockner gegen Gebühr zur
+    Verfügung. Waschmittel und die Chip-Karte zur Nutzung der Geräte findet ihr
+    im linken Schrank im großen Schlafzimmer. Bitte werft für jeden 
+    Wasch-/Trockengang 5 CHF in die "Wäschkasse", die auch im Schrank steht
+    (oder sagt uns Bescheid, wenn ihr über Paypal/Überweisung bezahlen wollt).
   text2: >
-    Die Waschküche findet ihr im Keller. Am Ende vom Treppenhaus links durch die Tür und gleich wieder links.
-    Bitte beachtet die ausgehängten Anweisungen, hinterlasst die Waschküche sauber und tragt euch in die
-    ausliegende Liste ein (Wohnung Nr. 7). Zur Unterstützung, hier ein <a href="/images/info/waschen.mp4">Bedienungs-Video</a>.
+    Die Waschküche findet ihr im Keller. Am Ende vom Treppenhaus links durch die
+    Tür und gleich wieder links. Bitte beachtet die ausgehängten Anweisungen,
+    hinterlasst die Waschküche sauber und tragt euch in die ausliegende Liste
+    ein (Wohnung Nr. 7). Zur Unterstützung, hier ein <a
+    href="/images/info/waschen.mp4">Bedienungs-Video</a>.
 wifi:
   title: WiFi
   text: >
-    Die Zugangsdaten findet ihr auf der Begrüßungskarte vor Ort. Sollte der Router ausgeschaltet sein,
-    einfach den Stecker im Wohnzimmer einstecken und eine Weile warten.
+    Die Zugangsdaten findet ihr auf der Begrüßungskarte vor Ort. Sollte der
+    Router ausgeschaltet sein, einfach den Stecker im Wohnzimmer einstecken und
+    eine Weile warten.

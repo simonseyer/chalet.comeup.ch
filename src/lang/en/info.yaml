@@ -1,94 +1,109 @@
 meta:
   title: On site
   description: >
-    Everything you need to know when you stay in our flat in the Bernese Oberland. 
+    Everything you need to know when you stay in our flat in the Bernese
+    Oberland. 
 header:
   title: All information about the flat
   subtitle: What you need to know on site
 first_aid:
   title: First aid & fire extinguisher
   text: >
-    You will find the first aid kit in the sideboard in the living room, first drawer from the right.
-    The fire extinguisher is to the left of the fireplace.
+    You will find the first aid kit in the sideboard in the living room, first
+    drawer from the right. The fire extinguisher is to the left of the
+    fireplace.
 windows:
   title: Shutters
   text: >
-    If the shutters are closed when you arrive, simply fold them outwards and lock them. 
-    You are welcome to leave them open when you leave.
+    If the shutters are closed when you arrive, simply fold them outwards and
+    lock them.  You are welcome to leave them open when you leave.
 feedback:
   title: Feedback
   text: >
-    We are very happy to receive feedback about your stay. 
-    It doesn't matter if you leave a review on AirBnB or send us a message. 
-    Please also let us know if there was any damage on your arrival, 
-    if you broke anything yourself, or if you have any ideas 
-    how we can make the accommodation even better.
+    We are very happy to receive feedback about your stay.  It doesn't matter if
+    you leave a review on AirBnB or send us a message.  Please also let us know
+    if there was any damage on your arrival,  if you broke anything yourself, or
+    if you have any ideas  how we can make the accommodation even better.
 tv:
   title: TV
   text1: >
-    With the Smart TV you can watch your favourite shows on Netflix or Amazon Prime Video. 
-    and access any other content via the TV apps or browser. 
-    It also supports AirPlay and Google Cast - when you're on WiFi, you can easily send content to the TV.
-    content to the TV.
+    With the Smart TV you can watch your favourite shows on Netflix or Amazon
+    Prime Video.  and access any other content via the TV apps or browser.  It
+    also supports AirPlay and Google Cast - when you're on WiFi, you can easily
+    send content to the TV. content to the TV.
   text2: >
-    For easier control, we recommend using the LG TV Plus app as a remote control. 
-    as a remote control. The TV doesn't have cable - that's why it says it's "not programmed". 
-    Before you leave, remember to log off your accounts.
+    For easier control, we recommend using the LG TV Plus app as a remote
+    control.  as a remote control. The TV doesn't have cable - that's why it
+    says it's "not programmed".  Before you leave, remember to log off your
+    accounts.
 guest_card:
   title: Guest card
-  text1: >
-    During your visit you can use the Gstaad guest card. 
-    It is a great way to take advantage of the region's offers at a reduced rate.
-    You can find all the offers at <a href="https://www.gstaad.ch/gaestekarte">gstaad.ch/guest-card</a>.
-  text2: >
-    The best thing is that you can buy the Gstaad Card from May to the end of October for very little money.
-    Mountain railways, various forms of public transport and a range of leisure activities are included or 
-    leisure activities are included or reduced. You can find out all about it at 
-    <a href="https://www.gstaad.ch/aktuell/angebote/gstaad-card">gstaad.ch/aktuell/angebote/gstaad-card</a>.
-  text3: >
-    The guest card is available in the flat. As it is not issued per guest but per holiday flat, 
-    we kindly ask you to leave it in the flat when you leave. Thank you!
+  text1: >-
+    The Gstaad Card is available to you as our guests. 
+
+    In addition to free public transport, it offers a variety of other offers
+    and discounts. 
+
+    For example, you can purchase a discounted day ticket for the lifts in the
+    region. 
+
+    The Gstaad Card is currently only available in summer.
+  text2: >-
+    You can find all information about the Gstaad Card at <a
+    href="https://www.gstaad.ch/en/news/offers/gstaad-card">gstaad.ch/en/news/offers/gstaad-card</a>.
+    Since the Gstaad Card is personalized, we need the following information
+    from you per person: <ul> <li> First and last name </li> <li> Date of birth
+    </li> <li> Address (street, house number, postcode, city, country) </li>
+    <li>Mail address (for sending the Gstaad Card)</li></ul>
 additional_equipment:
   title: Glasses, Fondue & Raclette
   text: >
-    Next to the kitchen you will find more glasses in the left compartment of the sideboard in the living room. 
-    In the other compartments you will also find the caquelon for fondue and the raclette machine.
+    Next to the kitchen you will find more glasses in the left compartment of
+    the sideboard in the living room.  In the other compartments you will also
+    find the caquelon for fondue and the raclette machine.
 coffee:
   title: Coffee
   text: >
-    In the morning to wake up or for a relaxing afternoon coffee with a view of the mountains
-    you can use the coffee pad machine in the kitchen. And if you don't like your coffee black,
-    just get some fresh milk from the local cows at the local dairy.
+    In the morning to wake up or for a relaxing afternoon coffee with a view of
+    the mountains you can use the coffee pad machine in the kitchen. And if you
+    don't like your coffee black, just get some fresh milk from the local cows
+    at the local dairy.
 contact:
   title: Contact
   text: >
-    If you have any questions or problems, we are of course happy to help. Contact us either
-    via AirBnB or use the contact option <a href="contact.html"> on this page</a>.
+    If you have any questions or problems, we are of course happy to help.
+    Contact us either via AirBnB or use the contact option <a
+    href="contact.html"> on this page</a>.
 garbage:
   title: Garbage
   text1: >
-    Please separate the rubbish on site. The small bin in the living room is for paper and cardboard.
-    you can dispose of everything else in the bin in the kitchen. Glass/bottles can be put under the sink.
+    Please separate the rubbish on site. The small bin in the living room is for
+    paper and cardboard. you can dispose of everything else in the bin in the
+    kitchen. Glass/bottles can be put under the sink.
   text2: >
-    Please note that you are only allowed to dispose of rubbish bags that are subject to a fee. Therefore, use the rubbish bags
-    on site when you take out the rubbish yourself.
+    Please note that you are only allowed to dispose of rubbish bags that are
+    subject to a fee. Therefore, use the rubbish bags on site when you take out
+    the rubbish yourself.
 supplies:
   title: Supplies
   text: >
-    If you run out of coffee, soap, etc., you will find supplies in the leftmost cupboard in the large bedroom.
-    supplies. Cleaning materials, sponges, etc. can be found either in the middle cupboard or in the kitchen
-    in the cupboard on the right below the sink (next to the rubbish bin).
+    If you run out of coffee, soap, etc., you will find supplies in the leftmost
+    cupboard in the large bedroom. supplies. Cleaning materials, sponges, etc.
+    can be found either in the middle cupboard or in the kitchen in the cupboard
+    on the right below the sink (next to the rubbish bin).
 parking:
   title: Parking
   image: Map with parking spaces
   text1: >
-    There is a parking space in the underground car park that you can use. When you are in front of the house 
-    just drive back towards Dorfstrasse and take the first entrance on the left (1st on the map). 
-    The flat key fits into the lower lock of the pillar and opens the gate. 
+    There is a parking space in the underground car park that you can use. When
+    you are in front of the house  just drive back towards Dorfstrasse and take
+    the first entrance on the left (1st on the map).  The flat key fits into the
+    lower lock of the pillar and opens the gate. 
   text2: >
-    The parking space is approximately in the middle on the left side and is labelled with the number 23 (flat 7).
-    Use the door next to the parking space to enter the staircase.
-    If you are arriving with more than one car, you can also use the free car park opposite the apartment (2nd on the left).
+    The parking space is approximately in the middle on the left side and is
+    labelled with the number 23 (flat 7). Use the door next to the parking space
+    to enter the staircase. If you are arriving with more than one car, you can
+    also use the free car park opposite the apartment (2nd on the left).
     opposite the flat (2nd on the map).
 keys:
   title: Key
@@ -97,55 +112,66 @@ keys:
     You will receive the code after your booking through AirBnB. 
   text2: >
     The key locks the house and flat doors, the garage door and the ski room.
-    When you leave, please leave the key in the safe and turn the combination lock. 
-    We also recommend this if you leave the flat during your stay (especially for groups).
+    When you leave, please leave the key in the safe and turn the combination
+    lock.  We also recommend this if you leave the flat during your stay
+    (especially for groups).
 ski:
   title: Ski room
   text: >
-    Please leave your ski and snowboard equipment in the ski room. Do not walk through the staircase with your ski boots on!
-    staircase! To the right of the house entrance you will find the stairs with direct access to the ski room.
+    Please leave your ski and snowboard equipment in the ski room. Do not walk
+    through the staircase with your ski boots on! staircase! To the right of the
+    house entrance you will find the stairs with direct access to the ski room.
 fireplace:
   title: Fireplace
   text: >
-    The flat has a fireplace, but unfortunately it is not available at the moment.
+    The flat has a fireplace, but unfortunately it is not available at the
+    moment.
 cleaning:
   title: Cleaning
   text: >
-    The flat will be cleaned and prepared for you with the well-known Swiss thoroughness before your arrival.
-    We adhere to the 
-    <a href="https://www.airbnb.ch/help/article/2809/was-ist-die-erweiterte-reinigung-in-fünf-schritten-von-airbnb?locale=de">AirBnB cleaning protocol</a>.
-    When you leave, we ask you to leave the flat tidy again. 
+    The flat will be cleaned and prepared for you with the well-known Swiss
+    thoroughness before your arrival. We adhere to the  <a
+    href="https://www.airbnb.ch/help/article/2809/was-ist-die-erweiterte-reinigung-in-fünf-schritten-von-airbnb?locale=de">AirBnB
+    cleaning protocol</a>. When you leave, we ask you to leave the flat tidy
+    again. 
 dishes:
   title: Dishes
   text: >
-    We would appreciate it if you washed dirty dishes directly and kept the kitchen clean.
+    We would appreciate it if you washed dirty dishes directly and kept the
+    kitchen clean.
 power:
   title: Plug adapters & cables
   text: >
-    You will find plug adapters for German plugs, multiple plugs and extension cables in the sideboard in the living room. 
-    You will find what you are looking for in the second drawer from the right.
+    You will find plug adapters for German plugs, multiple plugs and extension
+    cables in the sideboard in the living room.  You will find what you are
+    looking for in the second drawer from the right.
 phone:
   title: Telephone
   text: >
-    You can use the phone to make calls in Switzerland. If you want to call abroad,
-    please put a few francs in the "laundry box" in the left cupboard in the master bedroom. 
+    You can use the phone to make calls in Switzerland. If you want to call
+    abroad, please put a few francs in the "laundry box" in the left cupboard in
+    the master bedroom. 
 heating:
   title: Heating
   text: >
-    The house is normally so warm all year round that you don't need to heat it yourself.
+    The house is normally so warm all year round that you don't need to heat it
+    yourself.
 laundry:
   title: Laundry
   text1: >
-    There is a washing machine and a dryer available in the house for a fee. Detergent and the chip card to use the machines
-    you will find in the left cupboard in the large bedroom. Please throw for each 
-    5 CHF for each wash/dry cycle into the "laundry box", which is also in the cupboard (or let us know if you would like to use
-    you want to pay via Paypal/bank transfer).
+    There is a washing machine and a dryer available in the house for a fee.
+    Detergent and the chip card to use the machines you will find in the left
+    cupboard in the large bedroom. Please throw for each  5 CHF for each
+    wash/dry cycle into the "laundry box", which is also in the cupboard (or let
+    us know if you would like to use you want to pay via Paypal/bank transfer).
   text2: >
-    The laundry room is in the basement. At the end of the staircase turn left through the door and immediately left again.
-    Please follow the instructions on the notice board, leave the laundry room clean and sign up for the
-    list on display (flat no. 7). To operate, here is a <a href="/images/info/washing.mp4">small video</a>.
+    The laundry room is in the basement. At the end of the staircase turn left
+    through the door and immediately left again. Please follow the instructions
+    on the notice board, leave the laundry room clean and sign up for the list
+    on display (flat no. 7). To operate, here is a <a
+    href="/images/info/washing.mp4">small video</a>.
 wifi:
   title: WiFi
   text: >
-    You will find the access data on the welcome card on site. If the router is switched off
-    just plug it in in the living room and wait a while.
+    You will find the access data on the welcome card on site. If the router is
+    switched off just plug it in in the living room and wait a while.
