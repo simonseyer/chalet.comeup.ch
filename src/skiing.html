@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="${{ _lang_ }}$">
+
+@@include('_header.html', {
+"description": "${{ skiing.meta.description }}$",
+"title": "${{ skiing.meta.title }}$"
+})
+
+<body>
+    @@include('_nav.html', {"skiing": "active"})
+
+    @@include('_hero.html', {
+    "image": "hero_bg_1",
+    "title": "${{ skiing.header.title }}$",
+    "subtitle": "${{ skiing.header.subtitle }}$"
+    })
+
+    <div class="site-section border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p>
+                        Das Gstadter Skigebiet ist nicht das größte. Oder das höchstgelegene. Oder das modernste.
+                        Aber gerade diese Attribute machen einen großen Teil des Charmes aus.
+                        Hier findest du keine Autobahn-Abfahrten, Massenabfertigung oder unendliches Weiß.
+                    </p>
+                    <p>
+                        Vielmehr gibt es viele kleinere Pisten und Lifte, die dich durch kleine Wälder und
+                        an Felsmassiven vorbei ins Tal führen. An jeder Ecke erwarten dich atemberaubende Aussichten
+                        auf die Schweizer Alpen. Es gibt viele leichtere Abfahrten, die man ganz einfach
+                        genießen kann und urige Hütten, auf denen es sich gemütlich einkehren lässt.
+                    </p>
+                    <p>
+                        Das Skigebiet hat einiges zu bieten.
+                        Von Schönried, keine 10 Minuten fußläufig von der Ferienwohnung, hat man direkten Einstieg
+                        in ein <a
+                            href="https://www.gstaad.ch/interaktivekarte/index.php?lang=de&view=ski">weitreichendes Netz
+                            von Liften und Pisten</a>. Die bekannte Rinderberg-Ronda kann
+                        durchaus auch für erfahrene Skifahrer eine Herausforderung sein.
+                    </p>
+                    <p>
+                        Wem das noch nicht reicht, fährt mit der Bahn kostenlos nach Gstaad und steigt dort über
+                        das Eggli in ein weiteres sehr schönes Skigebiet ein. Vor allem die Abfahrt von der La
+                        Videmanette
+                        in das französisch sprachige Rougemont ist sehr zu empfehlen.
+                    </p>
+                    <p>
+                        Meine persönliche Lieblings-Abfahrt: vom Chübeli Lift zur Öschseite. 
+                        Es ist wirklich eine tolle Carving-Piste
+                        und die Fahrt wieder hoch mit dem zweisitzigen Sessel-Lift enschleunigt ungemein.
+                    </p>
+                    <p>
+                        Solltet ihr noch nicht sowieso schon voll ausgestatt sein, so könnt ihr jegliche Ausrüstung
+                        beim <a href="https://www.frautschi.ch">Sportgeschäft Frautschi</a> direkt in Schönried
+                        auf dem Weg zum Lift leihen oder auch kaufen. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('_footer.html')
+</body>
+
+</html>
